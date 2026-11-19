@@ -103,7 +103,7 @@ Developments are placed in a 2 × 2 matrix by their two scores. The list shows t
 
 ## Limitations and external dependencies
 
-- **Small, manually curated dataset.** There are 17 real developments (Aug 2024 – Nov 2026). Recent periods only show what has been added by hand; nothing is collected automatically. Coverage is uneven: Sports, Culture, Business and Energy currently have no entries, and the "last 7 / 30 days" views are empty until new entries are added. The app shows an explanation when a view is empty.
+- **Small, manually curated dataset.** There are 17 real developments (Aug 2024 – Nov 2026). Recent periods only show what has been added by hand; nothing is collected automatically. Coverage is uneven: Sports, Culture, Business and Energy currently have no entries. When a period has no entries, the app says so and offers the most recent period that has one.
 - **Scores are editorial judgements**, not measurements, and are labelled as such throughout.
 - **Images:** one entry has an image (public domain, Wikimedia Commons), loaded from Wikimedia at view time. The rest are text-only because no licence-verified image was confirmed. Add images only after checking the file's Commons page.
 - **External links** point to third-party sites that may change or disappear. Each entry shows its review date.
