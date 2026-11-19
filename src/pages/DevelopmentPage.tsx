@@ -22,8 +22,8 @@ function ScoreBar({ label, value }: { label: string; value: number }) {
         <span className="text-muted">{label}</span>
         <span className="tabular-nums">{value} / 10</span>
       </div>
-      <div className="mt-1 h-1.5 bg-paper-deep" aria-hidden>
-        <div className="h-full bg-accent" style={{ width: `${value * 10}%` }} />
+      <div className="mt-1 h-2 rounded-full bg-paper-deep overflow-hidden" aria-hidden>
+        <div className="h-full rounded-full bg-accent" style={{ width: `${value * 10}%` }} />
       </div>
     </div>
   )
@@ -55,7 +55,7 @@ export default function DevelopmentPage() {
             Demonstration entry. This is not a real development and is included only to show the format.
           </p>
         )}
-        <h1 className="mt-3 font-serif text-3xl sm:text-4xl leading-tight tracking-tight">{d.title}</h1>
+        <h1 className="mt-3 font-display font-bold text-3xl sm:text-4xl leading-tight tracking-tight">{d.title}</h1>
         <p className="mt-3 text-sm text-muted">
           <time dateTime={d.date}>{formatDate(d.date)}</time> · {minutes} min read ({words} words)
         </p>
@@ -91,7 +91,7 @@ export default function DevelopmentPage() {
         </div>
 
         <section className="mt-12 max-w-prose" aria-labelledby="sources-heading">
-          <h2 id="sources-heading" className="font-serif text-xl">
+          <h2 id="sources-heading" className="font-display font-semibold text-xl">
             Sources
           </h2>
           <ol className="mt-3 list-decimal pl-5 space-y-3 text-sm">

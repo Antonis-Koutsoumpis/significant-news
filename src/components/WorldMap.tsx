@@ -43,7 +43,7 @@ export default function WorldMap({ value, onChange, counts }: Props) {
   return (
     <section aria-labelledby="map-heading" className="-mt-4">
       <div className="flex items-baseline justify-between gap-4">
-        <h2 id="map-heading" className="text-xs uppercase tracking-wider text-muted">
+        <h2 id="map-heading" className="text-xs font-medium uppercase tracking-wider text-muted">
           Choose a region on the map
         </h2>
         <button type="button" onClick={toggle} aria-expanded={open} className="text-sm text-accent underline underline-offset-2">
@@ -67,15 +67,15 @@ function MapBody({ value, onChange, counts }: Props) {
 
   const max = Math.max(1, ...counts.values())
   const fill = (c: MapCountry) => {
-    if (selectedCountry?.iso === c.iso) return 'var(--color-accent)'
+    if (selectedCountry?.iso === c.iso) return 'var(--color-pink)'
     const n = counts.get(c.name) ?? 0
     if (n > 0) {
       // Three restrained steps of the ink colour by number of developments.
       const step = n >= max * 0.67 ? 0.55 : n >= max * 0.34 ? 0.42 : 0.3
-      return `color-mix(in srgb, var(--color-ink) ${step * 100}%, var(--color-paper))`
+      return `color-mix(in srgb, var(--color-accent) ${step * 100 + 20}%, var(--color-paper))`
     }
-    if (geo.kind === 'continent' && c.continent === geo.value) return 'color-mix(in srgb, var(--color-accent) 28%, var(--color-paper))'
-    return 'color-mix(in srgb, var(--color-ink) 11%, var(--color-paper))'
+    if (geo.kind === 'continent' && c.continent === geo.value) return 'var(--color-mint-soft)'
+    return '#e6e9f2'
   }
 
   const select = (c: MapCountry) => onChange(selectedCountry?.iso === c.iso ? 'world' : `country:${c.name}`)
@@ -88,7 +88,7 @@ function MapBody({ value, onChange, counts }: Props) {
   return (
     <div className="mt-3">
       <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
-        <div role="group" aria-label="Zoom to a continent" className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+        <div role="group" aria-label="Zoom to a continent" className="flex flex-wrap gap-1 text-sm">
           {(['World', ...CONTINENTS] as const).map((k) => {
             const active = k === 'World' ? geo.kind === 'world' : geo.kind === 'continent' && geo.value === k
             return (
@@ -97,7 +97,7 @@ function MapBody({ value, onChange, counts }: Props) {
                 type="button"
                 aria-pressed={active}
                 onClick={() => onChange(k === 'World' ? 'world' : `continent:${k}`)}
-                className={`py-0.5 border-b ${active ? 'border-ink text-ink' : 'border-transparent text-muted hover:text-ink'}`}
+                className={`rounded-full px-3 py-1 ${active ? 'bg-accent text-white' : 'text-muted hover:bg-paper-deep hover:text-ink'}`}
               >
                 {k}
               </button>
@@ -107,7 +107,7 @@ function MapBody({ value, onChange, counts }: Props) {
         <PlaceSearch countries={map?.countries ?? []} onChange={onChange} />
       </div>
 
-      <div className="mt-3 border border-rule bg-paper relative">
+      <div className="mt-3 overflow-hidden rounded-xl border border-rule bg-paper relative">
         {!map ? (
           <div className="aspect-[2/1] flex items-center justify-center text-sm text-muted">Loading map…</div>
         ) : (
@@ -143,8 +143,8 @@ function MapBody({ value, onChange, counts }: Props) {
       <div className="mt-2 flex flex-col gap-1 sm:flex-row sm:justify-between text-xs text-muted">
         <p aria-live="polite">{status}</p>
         <p className="flex items-center gap-3 shrink-0">
-          <Swatch color="color-mix(in srgb, var(--color-ink) 42%, var(--color-paper))" /> Recorded developments
-          <Swatch color="var(--color-accent)" /> Selected
+          <Swatch color="color-mix(in srgb, var(--color-accent) 62%, var(--color-paper))" /> Recorded developments
+          <Swatch color="var(--color-pink)" /> Selected
         </p>
       </div>
       <p className="mt-1 text-xs text-faint">
@@ -156,7 +156,7 @@ function MapBody({ value, onChange, counts }: Props) {
 }
 
 function Swatch({ color }: { color: string }) {
-  return <span aria-hidden className="inline-block h-2.5 w-4 border border-rule" style={{ background: color }} />
+  return <span aria-hidden className="inline-block h-2.5 w-4 rounded-sm" style={{ background: color }} />
 }
 
 /** Free-text place selector with suggestions: countries, continents and "World". */
@@ -221,7 +221,7 @@ function PlaceSearch({ countries, onChange }: { countries: MapCountry[]; onChang
           autoComplete="off"
           className={inputClass}
         />
-        <button type="submit" className="-ml-px border border-rule px-3 text-sm hover:border-faint">
+        <button type="submit" className="ml-1.5 rounded-lg bg-accent px-3 text-sm font-medium text-white hover:bg-accent-ink">
           Go
         </button>
       </div>

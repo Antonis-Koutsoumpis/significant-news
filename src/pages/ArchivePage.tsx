@@ -44,7 +44,7 @@ export default function ArchivePage() {
   return (
     <div className="flex flex-col gap-8">
       <header className="max-w-3xl">
-        <h1 className="font-serif text-3xl sm:text-4xl tracking-tight">Archive</h1>
+        <h1 className="font-display font-bold text-3xl sm:text-4xl tracking-tight">Archive</h1>
         <p className="mt-3 text-muted">
           All {items.length} published developments, searchable and filterable. Each entry has a permanent address that will not change.
         </p>
@@ -124,7 +124,7 @@ export default function ArchivePage() {
       ) : (
         groups.map(([y, list]) => (
           <section key={y} aria-labelledby={`y-${y}`}>
-            <h2 id={`y-${y}`} className="font-serif text-2xl mb-3 tabular-nums">
+            <h2 id={`y-${y}`} className="font-display font-semibold text-2xl mb-3 tabular-nums">
               {y}
             </h2>
             <DevelopmentList items={list} threshold={config.highThreshold} numbered={false} />

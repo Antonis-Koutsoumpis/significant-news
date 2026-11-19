@@ -3,7 +3,7 @@ import { useData } from '../data/DataContext'
 import { CATEGORIES, SOURCE_TYPE_LABEL } from '../lib/constants'
 
 function H2({ children }: { children: ReactNode }) {
-  return <h2 className="font-serif text-2xl mt-12 mb-3">{children}</h2>
+  return <h2 className="font-display font-semibold text-2xl mt-12 mb-3">{children}</h2>
 }
 
 export default function MethodologyPage() {
@@ -12,7 +12,7 @@ export default function MethodologyPage() {
 
   return (
     <article className="max-w-prose">
-      <h1 className="font-serif text-3xl sm:text-4xl tracking-tight">Methodology</h1>
+      <h1 className="font-display font-bold text-3xl sm:text-4xl tracking-tight">Methodology</h1>
       <p className="mt-4 text-muted leading-relaxed">
         This page explains how developments are selected, classified and ranked. The method is deliberately simple and will be revised
         as the pilot develops. All thresholds below are read from the dataset configuration and can be changed without altering the
@@ -106,9 +106,12 @@ export default function MethodologyPage() {
 
         <H2>Time periods</H2>
         <p>
-          Entries are dated by the day the definitive stage was reached. The last 7 and 30 calendar days include today and the preceding
-          6 or 29 days. The last year runs from the day after the same date one year earlier through today. Dates follow the viewer's
-          local calendar. Short periods are often empty, because a development is published only after it has concluded and been verified.
+          Entries are dated by the day the definitive stage was reached. The homepage shows the 7 calendar days ending today by default.
+          Any end date can be chosen with the calendar, with a look-back of 7 calendar days, a month (30 calendar days) or a year. A
+          7-day or 30-day period includes the end date and the preceding 6 or 29 days; a year runs from the day after the same date one
+          year earlier through the end date. Dates follow the viewer's local calendar. Short periods are often empty, because a
+          development is published only after it has concluded and been verified; the homepage then offers the period ending on the
+          most recent recorded development.
         </p>
 
         <H2>Sources and images</H2>

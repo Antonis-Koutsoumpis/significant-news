@@ -27,14 +27,16 @@ function addDays(iso: string, n: number): string {
 
 export type PeriodId = '7d' | '30d' | '1y'
 
-export const PERIODS: { id: PeriodId; label: string }[] = [
-  { id: '7d', label: 'Last 7 calendar days' },
-  { id: '30d', label: 'Last 30 calendar days' },
-  { id: '1y', label: 'Last 1 year' },
+export const PERIODS: { id: PeriodId; label: string; phrase: string }[] = [
+  { id: '7d', label: '7 days', phrase: '7 calendar days' },
+  { id: '30d', label: 'Month (30 days)', phrase: '30 calendar days' },
+  { id: '1y', label: 'Year', phrase: 'year' },
 ]
 
+export const isIsoDate = (v: string | undefined): v is string => !!v && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v))
+
 /**
- * Inclusive date range ending today.
+ * Inclusive date range ending on `today` (the selected end date).
  * 7d / 30d: today and the preceding 6 / 29 calendar days.
  * 1y: the day after the same date one year earlier, through today (365 or 366 days).
  */

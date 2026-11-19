@@ -1,17 +1,28 @@
+@import "@fontsource-variable/space-grotesk";
+@import "@fontsource-variable/source-serif-4";
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* "Daylight" theme. Fonts are bundled locally (OFL), so they work offline. */
+  --font-display: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4 Variable", Georgia, "Times New Roman", serif;
+  --font-sans: "Space Grotesk Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 
-  --color-paper: #f7f5f0;
-  --color-paper-deep: #efece4;
-  --color-ink: #1f1e1b;
-  --color-muted: #5e5b54;
-  --color-faint: #8a867d;
-  --color-rule: #d8d3c8;
-  --color-accent: #2e4a5e;
-  --color-accent-soft: #e3e8ec;
+  --color-paper: #ffffff;
+  --color-paper-deep: #f1f4ff;
+  --color-ink: #0f1a4a;
+  --color-muted: #5b6478;
+  --color-faint: #8790a6;
+  --color-rule: #e3e7f2;
+  --color-accent: #2251ff;
+  --color-accent-soft: #dce4ff;
+  --color-accent-ink: #1636b8;
+  --color-mint: #3dd6a3;
+  --color-mint-soft: #c9f5e6;
+  --color-mint-ink: #0b5b42;
+  --color-pink: #ff5c8a;
+  --color-pink-soft: #ffe0ea;
+  --color-pink-ink: #9b1e48;
 }
 
 html {

@@ -26,6 +26,14 @@ Other commands:
 
 Once installed, the app runs fully offline, including the map. Only the linked sources and the hosted image need an internet connection.
 
+## Choosing a period
+
+The homepage opens on the **7 calendar days ending today**. Use the calendar under *Ending on* to pick any end date, and *Looking back* to choose **7 days**, a **month** (30 days) or a **year** ending on that date. If a period has no recorded developments, the page offers to jump to the period ending on the most recent one.
+
+## I'm feeling lucky
+
+The *I'm feeling lucky* button in the header opens a randomly chosen development from the whole archive (never the one you are already reading).
+
 ## Choosing a region
 
 The geographical scope can be set in three ways, all kept in sync:
@@ -102,4 +110,5 @@ Developments are placed in a 2 × 2 matrix by their two scores. The list shows t
 - **No automation.** There is no scraping and no AI-generated publishing. A future pipeline should feed entries through the same validation and a human review step.
 - **Future backend:** implement the `DataSource` interface in `src/data/repository.ts` (for example, against a free Supabase or SQLite-backed API) and the rest of the app stays unchanged.
 - **Map:** borders are Natural Earth 1:50m (public domain), simplified and pre-projected (Equal Earth) at build time. Very small states are hard to click; use the search field or list for those. Borders follow Natural Earth's de facto conventions and imply no position on disputed territories.
+- **Fonts:** Space Grotesk and Source Serif 4 (SIL Open Font License), bundled through Fontsource so they work offline. Colours and fonts are defined in one place, the `@theme` block in `src/index.css`.
 - Runtime dependencies: `react`, `react-dom`, `react-router-dom` (all MIT-licensed). Build tools: Vite, TypeScript, Tailwind CSS; map generation uses world-atlas, d3-geo, topojson-client, topojson-simplify, i18n-iso-countries and countries-list (all free, open-source).

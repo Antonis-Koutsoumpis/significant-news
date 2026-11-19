@@ -5,12 +5,12 @@ import { countriesIn } from '../lib/select'
 import { useWorldMap } from '../lib/worldMap'
 
 const fieldClass =
-  'w-full rounded-none border border-rule bg-paper px-3 py-2 text-sm text-ink hover:border-faint focus:border-accent'
+  'w-full rounded-lg border border-rule bg-paper px-3 py-2 text-sm text-ink hover:border-faint focus:border-accent'
 
 export function Field({ label, children, htmlFor }: { label: string; children: ReactNode; htmlFor?: string }) {
   return (
     <div className="flex flex-col gap-1.5 min-w-0">
-      <label htmlFor={htmlFor} className="text-xs uppercase tracking-wider text-muted">
+      <label htmlFor={htmlFor} className="text-xs font-medium uppercase tracking-wider text-muted">
         {label}
       </label>
       {children}
@@ -122,7 +122,7 @@ export function TopicPicker({ value, onChange }: { value: CategoryId[]; onChange
           <span className="truncate">{summary}</span>
           <span aria-hidden className="text-faint ml-2 group-open:rotate-180 transition-transform text-xs">▾</span>
         </summary>
-        <fieldset className="sm:absolute z-10 mt-1 w-full sm:w-80 border border-rule bg-paper p-3 shadow-sm">
+        <fieldset className="sm:absolute z-10 mt-1 w-full sm:w-80 rounded-xl border border-rule bg-paper p-3 shadow-lg shadow-ink/5">
           <legend className="sr-only">Choose one or more topics</legend>
           <label className="flex items-center gap-2 py-1 text-sm">
             <input type="checkbox" checked={all} onChange={() => onChange([])} className="accent-accent" />
@@ -142,15 +142,17 @@ export function TopicPicker({ value, onChange }: { value: CategoryId[]; onChange
 }
 
 export function NewsTypeToggle({ goodOnly, onChange }: { goodOnly: boolean; onChange: (v: boolean) => void }) {
-  const opt = (active: boolean) =>
-    `flex-1 px-3 py-2 text-sm border ${active ? 'bg-ink text-paper border-ink' : 'bg-paper text-ink border-rule hover:border-faint'}`
+  const opt = (active: boolean, good: boolean) =>
+    `flex-1 whitespace-nowrap rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
+      active ? (good ? 'bg-mint-soft text-mint-ink' : 'bg-accent text-white') : 'text-muted hover:text-ink'
+    }`
   return (
     <Field label="Type of news">
-      <div role="radiogroup" aria-label="Type of news" className="flex">
-        <button type="button" role="radio" aria-checked={!goodOnly} className={opt(!goodOnly)} onClick={() => onChange(false)}>
+      <div role="radiogroup" aria-label="Type of news" className="flex gap-1 rounded-full border border-rule p-1">
+        <button type="button" role="radio" aria-checked={!goodOnly} className={opt(!goodOnly, false)} onClick={() => onChange(false)}>
           All news
         </button>
-        <button type="button" role="radio" aria-checked={goodOnly} className={`${opt(goodOnly)} -ml-px`} onClick={() => onChange(true)}>
+        <button type="button" role="radio" aria-checked={goodOnly} className={opt(goodOnly, true)} onClick={() => onChange(true)}>
           Good news
         </button>
       </div>

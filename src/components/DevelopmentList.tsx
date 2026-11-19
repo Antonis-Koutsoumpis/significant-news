@@ -38,21 +38,28 @@ export default function DevelopmentList({ items, threshold, numbered = true }: P
         const prominent = quadrantOf(d, threshold) === 'hh'
         return (
           <li key={d.id} className="py-5 sm:py-6 grid grid-cols-[2rem_1fr] sm:grid-cols-[2.5rem_1fr] gap-x-3">
-            <span className="font-serif text-faint tabular-nums pt-0.5">{numbered ? i + 1 : ''}</span>
+            <span className="font-display font-bold text-lg text-pink tabular-nums leading-tight">{numbered ? i + 1 : ''}</span>
             <article>
               <h3 className={`font-serif leading-snug ${prominent ? 'text-xl sm:text-2xl' : 'text-lg sm:text-xl'}`}>
-                <Link to={`/development/${d.id}`} className="hover:underline underline-offset-4 decoration-1">
+                <Link to={`/development/${d.id}`} className="hover:text-accent hover:underline underline-offset-4 decoration-1">
                   {d.title}
                 </Link>
               </h3>
               <p className="mt-1.5 text-xs text-muted flex flex-wrap gap-x-3 gap-y-1">
                 <time dateTime={d.date}>{formatDate(d.date)}</time>
                 <span>{geographyText(d)}</span>
-                <span>{d.categories.map((c) => CATEGORY_LABEL[c]).join(' · ')}</span>
                 <ScorePair d={d} />
                 {d.demonstration && <span className="uppercase tracking-wider">Demonstration entry</span>}
               </p>
-              <p className="mt-2 text-sm text-ink/85 max-w-prose">{firstSentence(d.account.outcome)}</p>
+              <p className="mt-2 flex flex-wrap gap-1.5">
+                {d.goodNews && <span className="rounded-full bg-mint-soft px-2.5 py-0.5 text-xs font-medium text-mint-ink">Good news</span>}
+                {d.categories.map((c) => (
+                  <span key={c} className="rounded-full bg-paper-deep px-2.5 py-0.5 text-xs text-accent-ink">
+                    {CATEGORY_LABEL[c]}
+                  </span>
+                ))}
+              </p>
+              <p className="mt-2 font-serif text-[15px] text-ink/85 max-w-prose">{firstSentence(d.account.outcome)}</p>
               {d.statusNote && <p className="mt-1.5 text-xs text-muted italic max-w-prose">{d.statusNote}</p>}
             </article>
           </li>

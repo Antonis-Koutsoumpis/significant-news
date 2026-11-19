@@ -31,7 +31,7 @@ export default function ImportanceMatrix({ ranked, threshold, active, onSelectQu
   return (
     <section aria-labelledby="matrix-heading">
       <div className="flex items-baseline justify-between gap-4 mb-3">
-        <h2 id="matrix-heading" className="font-serif text-xl">
+        <h2 id="matrix-heading" className="font-display font-semibold text-xl">
           Importance matrix
         </h2>
         {active && (
@@ -46,13 +46,13 @@ export default function ImportanceMatrix({ ranked, threshold, active, onSelectQu
           <span className="text-xs text-muted [writing-mode:vertical-rl] rotate-180 whitespace-nowrap">Long-term significance →</span>
         </div>
         <div className="flex-1 min-w-0">
-          <div className="relative aspect-[4/3] sm:aspect-[16/9] border border-rule bg-paper">
+          <div className="relative aspect-[4/3] sm:aspect-[16/9] overflow-hidden rounded-xl border border-rule bg-paper">
             {/* high/high quadrant receives a faint tint: it is the priority quadrant */}
-            <div className="absolute bg-accent-soft/60" style={{ left: `${split}%`, right: 0, top: 0, bottom: `${split}%` }} />
+            <div className="absolute bg-accent-soft/70" style={{ left: `${split}%`, right: 0, top: 0, bottom: `${split}%` }} />
             <div className="absolute top-0 bottom-0 border-l border-dashed border-rule" style={{ left: `${split}%` }} />
             <div className="absolute left-0 right-0 border-t border-dashed border-rule" style={{ bottom: `${split}%` }} />
 
-            <span className={`${cornerLabel} right-2 top-2 text-right text-accent`}>High immediate / High long-term</span>
+            <span className={`${cornerLabel} right-2 top-2 text-right text-accent-ink font-medium`}>High immediate / High long-term</span>
             <span className={`${cornerLabel} left-2 top-2`}>Low immediate / High long-term</span>
             <span className={`${cornerLabel} right-2 bottom-2 text-right`}>High immediate / Low long-term</span>
             <span className={`${cornerLabel} left-2 bottom-2`}>Low immediate / Low long-term</span>
@@ -67,7 +67,7 @@ export default function ImportanceMatrix({ ranked, threshold, active, onSelectQu
                   aria-label={`${rank}. ${d.title}. Immediate significance ${d.scores.immediate}, long-term significance ${d.scores.longTerm}.`}
                   className={`absolute -translate-x-1/2 translate-y-1/2 flex h-6 w-6 items-center justify-center rounded-full border text-[11px] tabular-nums transition-opacity ${
                     faded ? 'opacity-25' : ''
-                  } bg-ink text-paper border-ink hover:bg-accent hover:border-accent`}
+                  } ${quadrantOf(d, threshold) === 'hh' ? 'bg-pink border-pink' : 'bg-accent border-accent'} text-white font-medium hover:bg-ink hover:border-ink`}
                   style={{ left: `calc(${pos(d.scores.immediate)}% + ${n * 16}px)`, bottom: `${pos(d.scores.longTerm)}%` }}
                 >
                   {rank}
@@ -88,10 +88,10 @@ export default function ImportanceMatrix({ ranked, threshold, active, onSelectQu
               type="button"
               aria-pressed={on}
               onClick={() => onSelectQuadrant(on ? undefined : q.id)}
-              className={`text-left border px-3 py-2 text-xs ${on ? 'border-ink bg-ink text-paper' : 'border-rule hover:border-faint'}`}
+              className={`text-left rounded-lg border px-3 py-2 text-xs ${on ? 'border-accent bg-accent text-white' : 'border-rule hover:border-accent'}`}
             >
-              <span className="block uppercase tracking-wider">{q.short}</span>
-              <span className={on ? 'text-paper/80' : 'text-muted'}>
+              <span className="block font-medium uppercase tracking-wider">{q.short}</span>
+              <span className={on ? 'text-white/85' : 'text-muted'}>
                 {counts[q.id]} {counts[q.id] === 1 ? 'development' : 'developments'}
               </span>
             </button>
