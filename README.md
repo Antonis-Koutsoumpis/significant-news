@@ -1,5 +1,7 @@
 # The Record
 
+**Live site: https://antonis-koutsoumpis.github.io/significant-news/**. It opens in any browser on a computer or phone, with nothing to install.
+
 A curated archive of the world's most consequential **concluded** developments, ranked by reach and long-term significance rather than recency.
 
 Pilot built with React, TypeScript, Vite and Tailwind CSS. Data is stored as JSON. No backend, no accounts, no paid services.
