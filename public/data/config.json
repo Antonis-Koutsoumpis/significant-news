@@ -1,0 +1,8 @@
+{
+  "highThreshold": 6,
+  "weights": { "immediate": 0.4, "longTerm": 0.6 },
+  "wordsPerMinute": 200,
+  "maxWords": 200,
+  "referenceDate": null,
+  "datasetReviewed": "2026-11-18"
+}

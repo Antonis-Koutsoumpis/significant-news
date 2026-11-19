@@ -1,0 +1,354 @@
+[
+  {
+    "id": "2024-eu-artificial-intelligence-act-enters-into-force",
+    "title": "European Union Artificial Intelligence Act enters into force",
+    "date": "2024-08-01",
+    "statusNote": "Obligations apply in stages; most provisions apply from 2 August 2026 and some from 2027.",
+    "geography": {
+      "scope": "international",
+      "continents": ["Europe"],
+      "countries": ["Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czechia", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden"]
+    },
+    "categories": ["technology", "politics"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 5,
+      "longTerm": 9,
+      "rationale": "Immediate effects were limited because obligations are phased in. Long-term significance is high: it is the first comprehensive horizontal legal framework for AI, binding across 27 member states and applicable to foreign providers serving the EU market."
+    },
+    "account": {
+      "outcome": "Regulation (EU) 2024/1689, the Artificial Intelligence Act, was published in the Official Journal of the European Union on 12 July 2024 and entered into force on 1 August 2024 in all 27 member states. It classifies AI systems by risk, prohibits certain practices, and sets obligations for high-risk systems and for providers of general-purpose AI models, with application staggered between 2025 and 2027.",
+      "significance": "The Act is the first comprehensive, horizontal legal framework for artificial intelligence adopted by a major jurisdiction. Because it applies to any provider placing systems on the EU market, its requirements reach well beyond Europe.",
+      "longTerm": "The regulation establishes a reference model for governing AI by risk category. Its practical effect will depend on implementing standards, national enforcement and later amendments, but it fixes a legal baseline against which future AI governance elsewhere is likely to be compared."
+    },
+    "sources": [
+      { "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)", "publisher": "EUR-Lex, Official Journal of the European Union", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj", "type": "official", "date": "2024-07-12" },
+      { "title": "European Artificial Intelligence Act comes into force", "publisher": "European Commission", "url": "https://digital-strategy.ec.europa.eu/en/news/european-artificial-intelligence-act-comes-force", "type": "official", "date": "2024-08-01" },
+      { "title": "Long awaited EU AI Act becomes law after publication in the EU's Official Journal", "publisher": "White & Case", "url": "https://www.whitecase.com/insight-alert/long-awaited-eu-ai-act-becomes-law-after-publication-eus-official-journal", "type": "analysis" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2024-egypt-certified-malaria-free",
+    "title": "Egypt certified malaria-free by the World Health Organization",
+    "date": "2024-10-20",
+    "geography": { "scope": "national", "continents": ["Africa"], "countries": ["Egypt"] },
+    "categories": ["health"],
+    "goodNews": true,
+    "goodNewsRationale": "Certification requires proof that indigenous transmission has been interrupted nationwide for at least three consecutive years: a measured public health outcome for a population of more than 100 million.",
+    "scores": {
+      "immediate": 4,
+      "longTerm": 7,
+      "rationale": "Little changed on the day of certification, since transmission had already stopped. Long-term significance is substantial: elimination in a country of over 100 million after nearly a century of effort, and the first certification in the Eastern Mediterranean Region since 2010."
+    },
+    "account": {
+      "outcome": "On 20 October 2024 the World Health Organization certified Egypt as malaria-free. Certification is granted when a country demonstrates that indigenous transmission by Anopheles mosquitoes has been interrupted nationwide for at least three consecutive years. Egypt became the third country in WHO's Eastern Mediterranean Region to be certified, after the United Arab Emirates and Morocco.",
+      "significance": "Malaria had been present in Egypt since antiquity. Elimination followed nearly a century of surveillance, vector control and free diagnosis and treatment, sustained through ecological changes such as those introduced by the Aswan High Dam.",
+      "longTerm": "The certification shows that elimination is achievable in a populous country with a long history of transmission. Maintaining the status depends on continued surveillance and rapid response to imported cases."
+    },
+    "sources": [
+      { "title": "Egypt is certified malaria-free by WHO", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/20-10-2024-egypt-is-certified-malaria-free-by-who", "type": "intergovernmental", "date": "2024-10-20" },
+      { "title": "Egypt declared malaria-free, eradicating disease that 'plagued pharaohs' in ancient times", "publisher": "The National", "url": "https://www.thenationalnews.com/news/mena/2024/10/21/egypt-achieves-malaria-free-status-after-nearly-100-years-of-effort", "type": "news", "date": "2024-10-21" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2024-cop29-new-collective-climate-finance-goal",
+    "title": "COP29 adopts a new collective goal for climate finance",
+    "date": "2024-11-24",
+    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
+    "categories": ["climate", "international", "economy"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 5,
+      "longTerm": 7,
+      "rationale": "The decision sets the framework for climate finance to developing countries until 2035. Its long-term weight is tempered by the gap between the agreed figure and the needs stated by developing countries, and by uncertainty over delivery."
+    },
+    "account": {
+      "outcome": "At the UN Climate Change Conference in Baku, Azerbaijan, parties adopted the New Collective Quantified Goal on climate finance in the early hours of 24 November 2024. Developed countries are to take the lead in mobilising at least USD 300 billion a year for developing countries by 2035, replacing the earlier USD 100 billion goal. The decision also calls for efforts by all actors to scale finance to USD 1.3 trillion a year by 2035.",
+      "significance": "The goal defines the main finance commitment under the Paris Agreement for the coming decade. Several developing-country delegations stated at adoption that the amount was insufficient.",
+      "longTerm": "The figure will shape the ambition of national climate plans and the credibility of multilateral climate cooperation. Whether it is met, and how much takes the form of public grants rather than loans or private flows, remains to be seen."
+    },
+    "sources": [
+      { "title": "Baku Conference Sets New Collective Climate Finance Goal", "publisher": "International Institute for Sustainable Development", "url": "https://www.iisd.org/articles/insight/baku-conference-sets-new-collective-climate-finance-goal", "type": "analysis" },
+      { "title": "COP29 ends with a $300 billion promise overshadowed by distrust and discontent", "publisher": "Mongabay India", "url": "https://india.mongabay.com/2024/11/cop29-ends-with-a-300-billion-promise-overshadowed-by-distrust-and-discontent/", "type": "news", "date": "2024-11-24" },
+      { "title": "The Great Escape from Baku: Global North abandons South, denies adequate climate finance at COP29", "publisher": "Down To Earth", "url": "https://www.downtoearth.org.in/climate-change/the-great-escape-from-baku-global-north-abandons-south-denies-adequate-climate-finance-at-cop29", "type": "news" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2024-fall-of-the-assad-government-in-syria",
+    "title": "Government of Bashar al-Assad falls in Syria",
+    "date": "2024-12-08",
+    "statusNote": "This entry records the end of the Assad government. The subsequent political transition is a separate, unresolved process.",
+    "geography": { "scope": "international", "continents": ["Asia"], "countries": ["Syria"] },
+    "categories": ["international", "politics"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 9,
+      "longTerm": 9,
+      "rationale": "The collapse ended more than five decades of rule by the Assad family and altered the position of regional and external powers. It directly affects the population of Syria and the millions of Syrian refugees abroad."
+    },
+    "account": {
+      "outcome": "On 8 December 2024 opposition forces entered Damascus following an offensive that began in late November and captured Aleppo, Hama and Homs. President Bashar al-Assad left the country; Russian state media reported that he and his family were granted asylum in Russia. The government's collapse ended more than five decades of rule by the Assad family.",
+      "significance": "The event closed a defining chapter of the Syrian civil war, which began in 2011, and removed a government that had been a central ally of Iran and Russia in the region.",
+      "longTerm": "The fall of the government changed the regional balance of power and opened the question of Syria's future political order, reconstruction and the return of refugees. Those outcomes are not yet settled and are outside the scope of this entry."
+    },
+    "sources": [
+      { "title": "With Assad ousted, a new era starts in Syria as world watches", "publisher": "Reuters (via Chronicle.lu)", "url": "https://chronicle.lu/category/international-news/52545-with-assad-ousted-a-new-era-starts-in-syria-as-world-watches", "type": "news", "date": "2024-12-09" },
+      { "title": "Syrian rebels topple government, end decades of Assad rule", "publisher": "AFP (via The Star)", "url": "https://www.thestar.com.my/news/nation/2024/12/08/syrian-rebels-topple-government-end-decades-of-assad-rule", "type": "news", "date": "2024-12-08" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2024-quantum-error-correction-below-threshold",
+    "title": "Quantum error correction demonstrated below the surface-code threshold",
+    "date": "2024-12-09",
+    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
+    "categories": ["science", "technology"],
+    "goodNews": true,
+    "goodNewsRationale": "A peer-reviewed experimental result that resolves a long-standing open question in quantum computing, advancing scientific knowledge.",
+    "scores": {
+      "immediate": 2,
+      "longTerm": 7,
+      "rationale": "No practical application follows directly. Long-term significance rests on the result being a necessary condition for fault-tolerant quantum computers; the scale required for useful computation has not been reached, and the result comes from a single research group."
+    },
+    "account": {
+      "outcome": "On 9 December 2024 Nature published results from Google Quantum AI and collaborators showing surface-code quantum memories operating below the error-correction threshold on the Willow superconducting processor. As the code distance increased from 3 to 5 to 7, the logical error rate was roughly halved at each step, and the largest logical qubit outlived the best physical qubit.",
+      "significance": "Since quantum error correction was proposed in the 1990s, it has been expected that adding qubits would reduce errors only once hardware operated below a critical threshold. This experiment provided a clear demonstration of that behaviour in a surface code.",
+      "longTerm": "Below-threshold operation is a prerequisite for building large, fault-tolerant quantum computers. The result does not establish when such machines will exist, but it removes a fundamental obstacle on the path toward them."
+    },
+    "sources": [
+      { "title": "Quantum error correction below the surface code threshold", "publisher": "Nature", "url": "https://doi.org/10.1038/s41586-024-08449-y", "type": "peer-reviewed", "date": "2024-12-09" },
+      { "title": "Cracking the Challenge of Quantum Error Correction", "publisher": "Physics (American Physical Society)", "url": "https://physics.aps.org/articles/pdf/10.1103/Physics.17.176", "type": "analysis" },
+      { "title": "Meet Willow, our state-of-the-art quantum chip", "publisher": "Google", "url": "https://blog.google/technology/research/google-willow-quantum-chip/", "type": "official", "date": "2024-12-09" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2025-south-korea-constitutional-court-removes-president",
+    "title": "South Korea's Constitutional Court removes President Yoon Suk Yeol from office",
+    "date": "2025-04-04",
+    "geography": { "scope": "national", "continents": ["Asia"], "countries": ["South Korea"] },
+    "categories": ["politics"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 7,
+      "longTerm": 6,
+      "rationale": "The ruling resolved a constitutional crisis in a democracy of about 51 million people and triggered an early presidential election. Its long-term significance lies in the judicial affirmation of limits on emergency powers."
+    },
+    "account": {
+      "outcome": "On 4 April 2025 South Korea's Constitutional Court unanimously upheld the National Assembly's impeachment of President Yoon Suk Yeol and removed him from office. The court found that his declaration of martial law on 3 December 2024, and the deployment of troops to the National Assembly, violated the constitution. The ruling required a presidential election within 60 days.",
+      "significance": "Yoon became the second South Korean president to be removed through impeachment. The case was resolved through constitutional procedures, with the legislature lifting martial law within hours and the court ruling on the impeachment.",
+      "longTerm": "The decision sets a clear judicial precedent on the limits of presidential emergency powers in South Korea and is likely to be cited in future debates on martial law and the separation of powers."
+    },
+    "sources": [
+      { "title": "South Korea's president removed from office over ill-fated declaration of martial law", "publisher": "NPR", "url": "https://www.npr.org/2025/04/03/nx-s1-5351798/south-koreas-president-removed-from-office-over-ill-fated-declaration-of-martial-law", "type": "news", "date": "2025-04-04" },
+      { "title": "South Korea's President Yoon removed from office over martial law decree", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2025/4/4/south-koreas-constitutional-court-removes-president-yoon-from-office", "type": "news", "date": "2025-04-04" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2025-world-health-assembly-adopts-pandemic-agreement",
+    "title": "World Health Assembly adopts the WHO Pandemic Agreement",
+    "date": "2025-05-20",
+    "statusNote": "Adopted, but not yet open for signature: in May 2026 the Assembly extended negotiations on the required Pathogen Access and Benefit-Sharing annex.",
+    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
+    "categories": ["health", "international"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 4,
+      "longTerm": 8,
+      "rationale": "Adoption created no immediate obligations, since the agreement cannot enter into force until an annex is adopted and 60 states ratify. Long-term significance is high if it enters into force, as a binding global framework for pandemic preparedness."
+    },
+    "account": {
+      "outcome": "On 20 May 2025 the 78th World Health Assembly adopted the WHO Pandemic Agreement by consensus, after more than three years of negotiation prompted by COVID-19. The text had been approved in committee the previous day by 124 votes in favour, none against and 11 abstentions. It is the second agreement negotiated under Article 19 of the WHO Constitution, after the 2003 Framework Convention on Tobacco Control.",
+      "significance": "The agreement sets principles for prevention, preparedness and more equitable access to vaccines, treatments and diagnostics during future pandemics. It was adopted without the participation of the United States.",
+      "longTerm": "Its effect depends on adoption of the pathogen-sharing annex, which was not concluded by May 2026, and on ratification by at least 60 states. If those steps are completed, it would become the principal legal instrument for collective pandemic response."
+    },
+    "sources": [
+      { "title": "World Health Assembly adopts historic Pandemic Agreement to make the world more equitable and safer from future pandemics", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/20-05-2025-world-health-assembly-adopts-historic-pandemic-agreement-to-make-the-world-more-equitable-and-safer-from-future-pandemics", "type": "intergovernmental", "date": "2025-05-20" },
+      { "title": "WHO Member States Adopt Pandemic Agreement", "publisher": "IISD SDG Knowledge Hub", "url": "https://sdg.iisd.org/news/who-member-states-adopt-pandemic-agreement/", "type": "analysis" },
+      { "title": "Seventy-ninth World Health Assembly – Daily update: 19 May 2026", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/19-05-2026-seventy-ninth-world-health-assembly---daily-update--19-may-2026", "type": "intergovernmental", "date": "2026-05-19" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2025-us-approval-of-twice-yearly-hiv-prevention-injection",
+    "title": "United States approves a twice-yearly injection for HIV prevention",
+    "date": "2025-06-18",
+    "geography": { "scope": "national", "continents": ["North America"], "countries": ["United States"] },
+    "categories": ["health", "science"],
+    "goodNews": true,
+    "goodNewsRationale": "Approval followed two Phase 3 trials in which more than 99.9% of participants receiving the drug remained HIV-negative, a demonstrated health benefit.",
+    "scores": {
+      "immediate": 5,
+      "longTerm": 8,
+      "rationale": "The approval applies in one country, but it establishes the first twice-yearly prevention option and supports further regulatory filings elsewhere. Long-term significance depends on price and on access in high-incidence regions."
+    },
+    "account": {
+      "outcome": "On 18 June 2025 the US Food and Drug Administration approved lenacapavir, marketed by Gilead Sciences as Yeztugo, as pre-exposure prophylaxis to reduce the risk of sexually acquired HIV in adults and adolescents weighing at least 35 kg. It is injected twice a year. Approval rested on the Phase 3 PURPOSE 1 and PURPOSE 2 trials, in which more than 99.9% of participants receiving lenacapavir did not acquire HIV.",
+      "significance": "Existing preventive options require daily pills or injections every two months. A dosing interval of six months addresses adherence, one of the main reasons prevention fails in practice.",
+      "longTerm": "If made widely available, a long-acting option of this efficacy could change the course of HIV prevention globally. That outcome depends on approvals in other countries, manufacturing capacity and pricing in regions with the highest incidence."
+    },
+    "sources": [
+      { "title": "FDA Approves Lenacapavir for Prevention of HIV", "publisher": "Drug Topics", "url": "https://www.drugtopics.com/view/fda-approves-lenacapavir-for-prevention-of-hiv", "type": "news" },
+      { "title": "FDA approves lenacapavir as the first twice-yearly PrEP for HIV prevention", "publisher": "Managed Healthcare Executive", "url": "https://www.managedhealthcareexecutive.com/view/fda-approves-lenacapavir-as-the-first-twice-yearly-prep-for-hiv-prevention", "type": "news" },
+      { "title": "FDA Approves First Twice-a-Year HIV Prevention Shot, Yeztugo", "publisher": "HealthDay (via Drugs.com)", "url": "https://www.drugs.com/news/fda-approves-first-twice-year-hiv-prevention-shot-125459.html", "type": "news", "date": "2025-06-20" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2025-suriname-certified-malaria-free",
+    "title": "Suriname certified malaria-free, the first country in the Amazon region",
+    "date": "2025-06-30",
+    "geography": { "scope": "national", "continents": ["South America"], "countries": ["Suriname"] },
+    "categories": ["health"],
+    "goodNews": true,
+    "goodNewsRationale": "Certification confirms that indigenous transmission has been interrupted for at least three consecutive years; the last locally acquired case was recorded in 2021.",
+    "scores": {
+      "immediate": 3,
+      "longTerm": 6,
+      "rationale": "The population directly affected is small (about 600,000). The long-term significance is regional: it is the first elimination in the Amazon basin, where forest ecology and mobile mining populations make transmission difficult to control."
+    },
+    "account": {
+      "outcome": "On 30 June 2025 the World Health Organization certified Suriname as malaria-free, the first country in the Amazon region to receive the certification. The last locally acquired case had been recorded in 2021. Suriname became the twelfth country in the Americas to be certified.",
+      "significance": "Control efforts began in the 1950s. In later decades transmission was concentrated among mobile gold-mining communities in the interior, which the national programme reached through community-based testing and treatment.",
+      "longTerm": "The result demonstrates that elimination is feasible in Amazonian conditions and provides a working model for neighbouring countries. Sustaining it depends on surveillance of imported cases, particularly across borders with countries where malaria remains endemic."
+    },
+    "sources": [
+      { "title": "Suriname certified malaria-free by WHO", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/30-06-2025-suriname-certified-malaria-free-by-who", "type": "intergovernmental", "date": "2025-06-30" },
+      { "title": "Suriname certified malaria-free by WHO", "publisher": "Pan American Health Organization", "url": "https://www.paho.org/en/news/30-6-2025-suriname-certified-malaria-free-who", "type": "intergovernmental", "date": "2025-06-30" },
+      { "title": "First Amazon country declared free of malaria", "publisher": "Healio", "url": "https://www.healio.com/news/infectious-disease/20250701/first-amazon-country-declared-free-of-malaria", "type": "news", "date": "2025-07-01" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2025-icj-advisory-opinion-on-climate-change-obligations",
+    "title": "International Court of Justice issues advisory opinion on states' climate obligations",
+    "date": "2025-07-23",
+    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
+    "categories": ["climate", "international"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 4,
+      "longTerm": 9,
+      "rationale": "Advisory opinions are not binding and produced no immediate change in emissions. Long-term significance is high: a unanimous, authoritative statement of international law that courts and negotiators are likely to rely on for decades."
+    },
+    "account": {
+      "outcome": "On 23 July 2025 the International Court of Justice delivered, unanimously, its advisory opinion on the Obligations of States in respect of Climate Change, requested by the UN General Assembly in 2023. The Court found that states have binding obligations to protect the climate system arising from climate treaties and from customary international law, including a duty to prevent significant environmental harm, and that breaches may constitute internationally wrongful acts.",
+      "significance": "The request originated with Pacific island states. The Court rejected the position that climate treaties are the only applicable law, and treated the 1.5°C limit as the primary agreed temperature goal.",
+      "longTerm": "Although not legally binding, the opinion is the highest judicial interpretation of international climate law. It is expected to inform domestic litigation, future negotiations and claims concerning responsibility for climate damage."
+    },
+    "image": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/International_Court_of_Justice_HQ_2006.jpg?width=1200",
+      "alt": "The Peace Palace in The Hague, a red-brick building with a clock tower, seat of the International Court of Justice",
+      "caption": "The Peace Palace in The Hague, seat of the International Court of Justice, photographed in March 2006.",
+      "author": "International Court of Justice (uploaded by Yeu Ninje)",
+      "license": "Public domain, released by the copyright owner",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:International_Court_of_Justice_HQ_2006.jpg"
+    },
+    "sources": [
+      { "title": "Climate: Historic ICJ opinion on the obligations of States", "publisher": "United Nations Regional Information Centre", "url": "https://unric.org/en/climate-historic-icj-opinion-on-the-obligations-of-states/", "type": "intergovernmental" },
+      { "title": "ICJ Delivers Unanimous Advisory Opinion on States' Climate Change Obligations", "publisher": "American Society of International Law", "url": "https://asil.org/ilib/icj-delivers-unanimous-advisory-opinion-on-states-climate-change-obligations/", "type": "analysis" },
+      { "title": "International Court of Justice Advisory Opinion on Climate Change: briefing note", "publisher": "Earth Negotiations Bulletin (IISD)", "url": "https://enb.iisd.org/international-court-justice-advisory-opinion-climate-change-briefing-note", "type": "analysis", "date": "2025-07-23" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2025-australia-social-media-minimum-age-takes-effect",
+    "title": "Australia's minimum age of 16 for social media accounts takes effect",
+    "date": "2025-12-10",
+    "geography": { "scope": "national", "continents": ["Oceania"], "countries": ["Australia"] },
+    "categories": ["society", "technology", "politics"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 6,
+      "longTerm": 6,
+      "rationale": "The law immediately affected the accounts of a large share of Australian children and the operations of major platforms. Its long-term significance depends on enforcement, on measured effects, and on whether other countries adopt similar rules."
+    },
+    "account": {
+      "outcome": "On 10 December 2025 the Online Safety Amendment (Social Media Minimum Age) Act 2024 took effect in Australia. Designated platforms, including Facebook, Instagram, TikTok, Snapchat, X and YouTube, must take reasonable steps to prevent people under 16 from creating or keeping accounts, with fines of up to AUD 49.5 million. Penalties apply to platforms, not to children or parents.",
+      "significance": "Australia became the first country to impose a nationwide minimum age for social media accounts. The measure required platforms to deactivate existing accounts and to deploy age-assurance methods at scale.",
+      "longTerm": "The law is a test case for regulating children's access to online platforms by age. Its effects on young people's wellbeing, and the accuracy and privacy implications of age assurance, are not yet established and are actively debated."
+    },
+    "sources": [
+      { "title": "New social media age restrictions for under-16s start 10 December", "publisher": "Perth Children's Hospital, Government of Western Australia", "url": "https://pch.health.wa.gov.au/About-us/News/New-social-media-age-restrictions-for-under-16s-start-10-December", "type": "official", "date": "2025-11-17" },
+      { "title": "Australia's social media ban for under-16s comes into force", "publisher": "MLex", "url": "https://www.mlex.com/mlex/articles/2420227/australia-s-social-media-ban-for-under-16s-comes-into-force", "type": "news", "date": "2025-12-10" },
+      { "title": "Australia's Nationwide Ban on Social Media for Under-16s Takes Effect", "publisher": "Outlook India", "url": "https://www.outlookindia.com/international/australias-nationwide-ban-on-social-media-for-under-16s-takes-effect", "type": "news" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2026-bulgaria-adopts-the-euro",
+    "title": "Bulgaria adopts the euro as the 21st member of the euro area",
+    "date": "2026-01-01",
+    "geography": { "scope": "national", "continents": ["Europe"], "countries": ["Bulgaria"] },
+    "categories": ["economy", "politics"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 5,
+      "longTerm": 7,
+      "rationale": "The lev had been pegged first to the Deutsche Mark and then to the euro since 1997, which limited the immediate economic shock. Long-term significance is institutional: Bulgaria's central bank joined the Eurosystem and monetary policy for 6.4 million people moved to the European Central Bank."
+    },
+    "account": {
+      "outcome": "On 1 January 2026 Bulgaria replaced the lev with the euro and became the 21st member of the euro area. The Council of the European Union had adopted the required legal acts on 8 July 2025, fixing the conversion rate at 1.95583 lev to the euro. The two currencies circulated together during January, and the Bulgarian National Bank joined the Eurosystem.",
+      "significance": "It was the first enlargement of the euro area since Croatia joined in 2023. The changeover took place while an outgoing government was in office and no 2026 budget had been adopted.",
+      "longTerm": "Membership removes exchange-rate risk and transfers monetary policy to the European Central Bank. Public opinion on adoption was divided, with concern about price increases; its economic effects will be measurable only over several years."
+    },
+    "sources": [
+      { "title": "Bulgaria introduces the euro", "publisher": "European Central Bank", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260101~c830245e42.en.html", "type": "intergovernmental", "date": "2026-01-01" },
+      { "title": "Bulgaria adopts euro as of 1 January 2026", "publisher": "European Commission, Access2Markets", "url": "https://trade.ec.europa.eu/access-to-markets/en/news/bulgaria-adopts-euro-1-january-2026", "type": "official" },
+      { "title": "Bulgaria Clears Last Hurdle to Eurozone Entry on January 1, 2026", "publisher": "Bulgarian News Agency (BTA)", "url": "https://www.bta.bg/en/news/926015-bulgaria-clears-last-hurdle-to-eurozone-entry-on-january-1-2026", "type": "news", "date": "2025-07-08" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2026-high-seas-treaty-enters-into-force",
+    "title": "High Seas Treaty enters into force",
+    "date": "2026-01-17",
+    "statusNote": "The treaty's institutions are still being established; the first Conference of the Parties must meet by January 2027.",
+    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
+    "categories": ["climate", "international"],
+    "goodNews": false,
+    "scores": {
+      "immediate": 4,
+      "longTerm": 9,
+      "rationale": "Entry into force created a legal basis but no protected areas on the day itself. Long-term significance is high because the treaty is the first binding framework for conserving biodiversity in areas beyond national jurisdiction, close to half of the planet's surface."
+    },
+    "account": {
+      "outcome": "The Agreement on the Conservation and Sustainable Use of Marine Biological Diversity of Areas beyond National Jurisdiction, adopted under the UN Convention on the Law of the Sea in 2023, entered into force on 17 January 2026. The 60th ratification had been deposited on 19 September 2025, starting a 120-day period. By mid-January more than 80 states had ratified.",
+      "significance": "Before the treaty, no comprehensive legal framework existed for establishing marine protected areas on the high seas or for requiring environmental impact assessments there.",
+      "longTerm": "The treaty provides the legal means to create high-seas protected areas, share benefits from marine genetic resources and assess the impact of activities in international waters. Its practical effect depends on the institutions now being set up and on participation by major maritime states."
+    },
+    "sources": [
+      { "title": "High Seas Treaty enters into force: A milestone for ocean conservation", "publisher": "European Commission, DG Maritime Affairs and Fisheries", "url": "https://oceans-and-fisheries.ec.europa.eu/news/high-seas-treaty-enters-force-milestone-ocean-conservation-2026-01-16_en", "type": "official", "date": "2026-01-16" },
+      { "title": "UN High Seas Treaty enters into force, drawing praise from NGOs", "publisher": "SeafoodSource", "url": "https://www.seafoodsource.com/news/environment-sustainability/un-high-seas-treaty-enters-into-force-drawing-praise-from-ngos", "type": "news" },
+      { "title": "Historic Moment for the Ocean and for Multilateralism: BBNJ Agreement Enters into Force", "publisher": "Hellenic Shipping News", "url": "https://www.hellenicshippingnews.com/historic-moment-for-the-ocean-and-for-multilateralism-bbnj-agreement-enters-into-force/", "type": "news" }
+    ],
+    "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2026-who-prequalifies-malaria-treatment-for-newborns",
+    "title": "WHO prequalifies the first malaria treatment formulated for newborns and young infants",
+    "date": "2026-04-24",
+    "geography": { "scope": "international", "continents": ["Africa"], "countries": [] },
+    "categories": ["health"],
+    "goodNews": true,
+    "goodNewsRationale": "Prequalification certifies quality, safety and efficacy and allows public-sector procurement of a treatment for a group that previously had no dedicated formulation.",
+    "scores": {
+      "immediate": 4,
+      "longTerm": 7,
+      "rationale": "Benefits accrue as procurement and distribution follow. Long-term significance reflects the size of the group concerned: about 30 million babies are born each year in malaria-endemic areas of Africa."
+    },
+    "account": {
+      "outcome": "On 24 April 2026 the World Health Organization announced the prequalification of an artemether-lumefantrine formulation for newborns and young infants weighing 2 to 5 kg, the first antimalarial designed specifically for this group. On 14 April WHO had also prequalified three rapid diagnostic tests that detect a different parasite protein, addressing false negatives caused by parasites that no longer produce the protein detected by common tests.",
+      "significance": "Infants had been treated with formulations intended for older children, which increases the risk of dosing errors and toxicity. WHO prequalification enables procurement by UN agencies and other public-sector buyers.",
+      "longTerm": "The formulation closes a long-standing gap in malaria treatment for the youngest patients, among whom the disease is most dangerous. Its effect on mortality will depend on supply and uptake in endemic countries."
+    },
+    "sources": [
+      { "title": "WHO prequalifies first-ever malaria treatment for newborns and infants, adds new diagnostic tests", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests", "type": "intergovernmental", "date": "2026-04-24" }
+    ],
+    "reviewed": "2026-11-18"
+  }
+]
