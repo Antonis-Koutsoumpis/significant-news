@@ -4,6 +4,7 @@ import { CONTINENTS } from '../lib/constants'
 import { parseGeo, type GeoValue } from '../lib/select'
 import { CONTINENT_VIEW, useWorldMap, type MapCountry } from '../lib/worldMap'
 import { inputClass } from './Controls'
+import Expander from './Expander'
 
 interface Props {
   value: GeoValue
@@ -12,46 +13,24 @@ interface Props {
   counts: Map<string, number>
 }
 
-const STORAGE_KEY = 'record.mapOpen'
-
-function readOpen(): boolean {
-  try {
-    return localStorage.getItem(STORAGE_KEY) !== '0'
-  } catch {
-    return true
-  }
-}
-
 /**
- * Interactive map for choosing the geographical scope. Clicking a country
- * selects it; the continent buttons select and zoom to a continent; the text
- * field accepts any country, continent or "World".
+ * Optional interactive map for choosing the geographical scope, collapsed by
+ * default. Clicking a country selects it; the continent buttons select and zoom
+ * to a continent; the text field accepts any country, continent or "World".
  */
 export default function WorldMap({ value, onChange, counts }: Props) {
-  const [open, setOpen] = useState(readOpen)
-  const toggle = () => {
-    setOpen((o) => {
-      try {
-        localStorage.setItem(STORAGE_KEY, o ? '0' : '1')
-      } catch {
-        /* storage unavailable: keep the choice for this visit only */
-      }
-      return !o
-    })
-  }
-
+  const geo = parseGeo(value)
   return (
-    <section aria-labelledby="map-heading" className="-mt-4">
-      <div className="flex items-baseline justify-between gap-4">
-        <h2 id="map-heading" className="text-xs font-medium uppercase tracking-wider text-muted">
-          Choose a region on the map
-        </h2>
-        <button type="button" onClick={toggle} aria-expanded={open} className="text-sm text-accent underline underline-offset-2">
-          {open ? 'Hide map' : 'Show map'}
-        </button>
-      </div>
-      {open && <MapBody value={value} onChange={onChange} counts={counts} />}
-    </section>
+    <Expander
+      label="Show on map"
+      hint={
+        geo.kind === 'world'
+          ? 'Choose a country or continent on an interactive world map'
+          : `Currently selected: ${geo.value}. Open the map to change it.`
+      }
+    >
+      <MapBody value={value} onChange={onChange} counts={counts} />
+    </Expander>
   )
 }
 
@@ -86,7 +65,7 @@ function MapBody({ value, onChange, counts }: Props) {
     : 'Select a country on the map, or a continent below.'
 
   return (
-    <div className="mt-3">
+    <div>
       <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
         <div role="group" aria-label="Zoom to a continent" className="flex flex-wrap gap-1 text-sm">
           {(['World', ...CONTINENTS] as const).map((k) => {

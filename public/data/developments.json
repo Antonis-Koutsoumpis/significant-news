@@ -6,10 +6,43 @@
     "statusNote": "Obligations apply in stages; most provisions apply from 2 August 2026 and some from 2027.",
     "geography": {
       "scope": "international",
-      "continents": ["Europe"],
-      "countries": ["Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czechia", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden"]
+      "continents": [
+        "Europe"
+      ],
+      "countries": [
+        "Austria",
+        "Belgium",
+        "Bulgaria",
+        "Croatia",
+        "Cyprus",
+        "Czechia",
+        "Denmark",
+        "Estonia",
+        "Finland",
+        "France",
+        "Germany",
+        "Greece",
+        "Hungary",
+        "Ireland",
+        "Italy",
+        "Latvia",
+        "Lithuania",
+        "Luxembourg",
+        "Malta",
+        "Netherlands",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "Slovakia",
+        "Slovenia",
+        "Spain",
+        "Sweden"
+      ]
     },
-    "categories": ["technology", "politics"],
+    "categories": [
+      "technology",
+      "politics"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 5,
@@ -22,9 +55,26 @@
       "longTerm": "The regulation establishes a reference model for governing AI by risk category. Its practical effect will depend on implementing standards, national enforcement and later amendments, but it fixes a legal baseline against which future AI governance elsewhere is likely to be compared."
     },
     "sources": [
-      { "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)", "publisher": "EUR-Lex, Official Journal of the European Union", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj", "type": "official", "date": "2024-07-12" },
-      { "title": "European Artificial Intelligence Act comes into force", "publisher": "European Commission", "url": "https://digital-strategy.ec.europa.eu/en/news/european-artificial-intelligence-act-comes-force", "type": "official", "date": "2024-08-01" },
-      { "title": "Long awaited EU AI Act becomes law after publication in the EU's Official Journal", "publisher": "White & Case", "url": "https://www.whitecase.com/insight-alert/long-awaited-eu-ai-act-becomes-law-after-publication-eus-official-journal", "type": "analysis" }
+      {
+        "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "publisher": "EUR-Lex, Official Journal of the European Union",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+        "type": "official",
+        "date": "2024-07-12"
+      },
+      {
+        "title": "European Artificial Intelligence Act comes into force",
+        "publisher": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/european-artificial-intelligence-act-comes-force",
+        "type": "official",
+        "date": "2024-08-01"
+      },
+      {
+        "title": "Long awaited EU AI Act becomes law after publication in the EU's Official Journal",
+        "publisher": "White & Case",
+        "url": "https://www.whitecase.com/insight-alert/long-awaited-eu-ai-act-becomes-law-after-publication-eus-official-journal",
+        "type": "analysis"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -32,8 +82,18 @@
     "id": "2024-egypt-certified-malaria-free",
     "title": "Egypt certified malaria-free by the World Health Organization",
     "date": "2024-10-20",
-    "geography": { "scope": "national", "continents": ["Africa"], "countries": ["Egypt"] },
-    "categories": ["health"],
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "Africa"
+      ],
+      "countries": [
+        "Egypt"
+      ]
+    },
+    "categories": [
+      "health"
+    ],
     "goodNews": true,
     "goodNewsRationale": "Certification requires proof that indigenous transmission has been interrupted nationwide for at least three consecutive years: a measured public health outcome for a population of more than 100 million.",
     "scores": {
@@ -47,8 +107,20 @@
       "longTerm": "The certification shows that elimination is achievable in a populous country with a long history of transmission. Maintaining the status depends on continued surveillance and rapid response to imported cases."
     },
     "sources": [
-      { "title": "Egypt is certified malaria-free by WHO", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/20-10-2024-egypt-is-certified-malaria-free-by-who", "type": "intergovernmental", "date": "2024-10-20" },
-      { "title": "Egypt declared malaria-free, eradicating disease that 'plagued pharaohs' in ancient times", "publisher": "The National", "url": "https://www.thenationalnews.com/news/mena/2024/10/21/egypt-achieves-malaria-free-status-after-nearly-100-years-of-effort", "type": "news", "date": "2024-10-21" }
+      {
+        "title": "Egypt is certified malaria-free by WHO",
+        "publisher": "World Health Organization",
+        "url": "https://www.who.int/news/item/20-10-2024-egypt-is-certified-malaria-free-by-who",
+        "type": "intergovernmental",
+        "date": "2024-10-20"
+      },
+      {
+        "title": "Egypt declared malaria-free, eradicating disease that 'plagued pharaohs' in ancient times",
+        "publisher": "The National",
+        "url": "https://www.thenationalnews.com/news/mena/2024/10/21/egypt-achieves-malaria-free-status-after-nearly-100-years-of-effort",
+        "type": "news",
+        "date": "2024-10-21"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -56,8 +128,23 @@
     "id": "2024-cop29-new-collective-climate-finance-goal",
     "title": "COP29 adopts a new collective goal for climate finance",
     "date": "2024-11-24",
-    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
-    "categories": ["climate", "international", "economy"],
+    "geography": {
+      "scope": "global",
+      "continents": [
+        "Europe",
+        "Asia",
+        "Africa",
+        "North America",
+        "South America",
+        "Oceania"
+      ],
+      "countries": []
+    },
+    "categories": [
+      "climate",
+      "international",
+      "economy"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 5,
@@ -70,9 +157,25 @@
       "longTerm": "The figure will shape the ambition of national climate plans and the credibility of multilateral climate cooperation. Whether it is met, and how much takes the form of public grants rather than loans or private flows, remains to be seen."
     },
     "sources": [
-      { "title": "Baku Conference Sets New Collective Climate Finance Goal", "publisher": "International Institute for Sustainable Development", "url": "https://www.iisd.org/articles/insight/baku-conference-sets-new-collective-climate-finance-goal", "type": "analysis" },
-      { "title": "COP29 ends with a $300 billion promise overshadowed by distrust and discontent", "publisher": "Mongabay India", "url": "https://india.mongabay.com/2024/11/cop29-ends-with-a-300-billion-promise-overshadowed-by-distrust-and-discontent/", "type": "news", "date": "2024-11-24" },
-      { "title": "The Great Escape from Baku: Global North abandons South, denies adequate climate finance at COP29", "publisher": "Down To Earth", "url": "https://www.downtoearth.org.in/climate-change/the-great-escape-from-baku-global-north-abandons-south-denies-adequate-climate-finance-at-cop29", "type": "news" }
+      {
+        "title": "Baku Conference Sets New Collective Climate Finance Goal",
+        "publisher": "International Institute for Sustainable Development",
+        "url": "https://www.iisd.org/articles/insight/baku-conference-sets-new-collective-climate-finance-goal",
+        "type": "analysis"
+      },
+      {
+        "title": "COP29 ends with a $300 billion promise overshadowed by distrust and discontent",
+        "publisher": "Mongabay India",
+        "url": "https://india.mongabay.com/2024/11/cop29-ends-with-a-300-billion-promise-overshadowed-by-distrust-and-discontent/",
+        "type": "news",
+        "date": "2024-11-24"
+      },
+      {
+        "title": "The Great Escape from Baku: Global North abandons South, denies adequate climate finance at COP29",
+        "publisher": "Down To Earth",
+        "url": "https://www.downtoearth.org.in/climate-change/the-great-escape-from-baku-global-north-abandons-south-denies-adequate-climate-finance-at-cop29",
+        "type": "news"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -81,8 +184,19 @@
     "title": "Government of Bashar al-Assad falls in Syria",
     "date": "2024-12-08",
     "statusNote": "This entry records the end of the Assad government. The subsequent political transition is a separate, unresolved process.",
-    "geography": { "scope": "international", "continents": ["Asia"], "countries": ["Syria"] },
-    "categories": ["international", "politics"],
+    "geography": {
+      "scope": "international",
+      "continents": [
+        "Asia"
+      ],
+      "countries": [
+        "Syria"
+      ]
+    },
+    "categories": [
+      "international",
+      "politics"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 9,
@@ -95,8 +209,20 @@
       "longTerm": "The fall of the government changed the regional balance of power and opened the question of Syria's future political order, reconstruction and the return of refugees. Those outcomes are not yet settled and are outside the scope of this entry."
     },
     "sources": [
-      { "title": "With Assad ousted, a new era starts in Syria as world watches", "publisher": "Reuters (via Chronicle.lu)", "url": "https://chronicle.lu/category/international-news/52545-with-assad-ousted-a-new-era-starts-in-syria-as-world-watches", "type": "news", "date": "2024-12-09" },
-      { "title": "Syrian rebels topple government, end decades of Assad rule", "publisher": "AFP (via The Star)", "url": "https://www.thestar.com.my/news/nation/2024/12/08/syrian-rebels-topple-government-end-decades-of-assad-rule", "type": "news", "date": "2024-12-08" }
+      {
+        "title": "With Assad ousted, a new era starts in Syria as world watches",
+        "publisher": "Reuters (via Chronicle.lu)",
+        "url": "https://chronicle.lu/category/international-news/52545-with-assad-ousted-a-new-era-starts-in-syria-as-world-watches",
+        "type": "news",
+        "date": "2024-12-09"
+      },
+      {
+        "title": "Syrian rebels topple government, end decades of Assad rule",
+        "publisher": "AFP (via The Star)",
+        "url": "https://www.thestar.com.my/news/nation/2024/12/08/syrian-rebels-topple-government-end-decades-of-assad-rule",
+        "type": "news",
+        "date": "2024-12-08"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -104,8 +230,22 @@
     "id": "2024-quantum-error-correction-below-threshold",
     "title": "Quantum error correction demonstrated below the surface-code threshold",
     "date": "2024-12-09",
-    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
-    "categories": ["science", "technology"],
+    "geography": {
+      "scope": "global",
+      "continents": [
+        "Europe",
+        "Asia",
+        "Africa",
+        "North America",
+        "South America",
+        "Oceania"
+      ],
+      "countries": []
+    },
+    "categories": [
+      "science",
+      "technology"
+    ],
     "goodNews": true,
     "goodNewsRationale": "A peer-reviewed experimental result that resolves a long-standing open question in quantum computing, advancing scientific knowledge.",
     "scores": {
@@ -119,9 +259,26 @@
       "longTerm": "Below-threshold operation is a prerequisite for building large, fault-tolerant quantum computers. The result does not establish when such machines will exist, but it removes a fundamental obstacle on the path toward them."
     },
     "sources": [
-      { "title": "Quantum error correction below the surface code threshold", "publisher": "Nature", "url": "https://doi.org/10.1038/s41586-024-08449-y", "type": "peer-reviewed", "date": "2024-12-09" },
-      { "title": "Cracking the Challenge of Quantum Error Correction", "publisher": "Physics (American Physical Society)", "url": "https://physics.aps.org/articles/pdf/10.1103/Physics.17.176", "type": "analysis" },
-      { "title": "Meet Willow, our state-of-the-art quantum chip", "publisher": "Google", "url": "https://blog.google/technology/research/google-willow-quantum-chip/", "type": "official", "date": "2024-12-09" }
+      {
+        "title": "Quantum error correction below the surface code threshold",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/s41586-024-08449-y",
+        "type": "peer-reviewed",
+        "date": "2024-12-09"
+      },
+      {
+        "title": "Cracking the Challenge of Quantum Error Correction",
+        "publisher": "Physics (American Physical Society)",
+        "url": "https://physics.aps.org/articles/pdf/10.1103/Physics.17.176",
+        "type": "analysis"
+      },
+      {
+        "title": "Meet Willow, our state-of-the-art quantum chip",
+        "publisher": "Google",
+        "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
+        "type": "official",
+        "date": "2024-12-09"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -129,8 +286,18 @@
     "id": "2025-south-korea-constitutional-court-removes-president",
     "title": "South Korea's Constitutional Court removes President Yoon Suk Yeol from office",
     "date": "2025-04-04",
-    "geography": { "scope": "national", "continents": ["Asia"], "countries": ["South Korea"] },
-    "categories": ["politics"],
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "Asia"
+      ],
+      "countries": [
+        "South Korea"
+      ]
+    },
+    "categories": [
+      "politics"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 7,
@@ -143,8 +310,20 @@
       "longTerm": "The decision sets a clear judicial precedent on the limits of presidential emergency powers in South Korea and is likely to be cited in future debates on martial law and the separation of powers."
     },
     "sources": [
-      { "title": "South Korea's president removed from office over ill-fated declaration of martial law", "publisher": "NPR", "url": "https://www.npr.org/2025/04/03/nx-s1-5351798/south-koreas-president-removed-from-office-over-ill-fated-declaration-of-martial-law", "type": "news", "date": "2025-04-04" },
-      { "title": "South Korea's President Yoon removed from office over martial law decree", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2025/4/4/south-koreas-constitutional-court-removes-president-yoon-from-office", "type": "news", "date": "2025-04-04" }
+      {
+        "title": "South Korea's president removed from office over ill-fated declaration of martial law",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2025/04/03/nx-s1-5351798/south-koreas-president-removed-from-office-over-ill-fated-declaration-of-martial-law",
+        "type": "news",
+        "date": "2025-04-04"
+      },
+      {
+        "title": "South Korea's President Yoon removed from office over martial law decree",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2025/4/4/south-koreas-constitutional-court-removes-president-yoon-from-office",
+        "type": "news",
+        "date": "2025-04-04"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -153,8 +332,22 @@
     "title": "World Health Assembly adopts the WHO Pandemic Agreement",
     "date": "2025-05-20",
     "statusNote": "Adopted, but not yet open for signature: in May 2026 the Assembly extended negotiations on the required Pathogen Access and Benefit-Sharing annex.",
-    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
-    "categories": ["health", "international"],
+    "geography": {
+      "scope": "global",
+      "continents": [
+        "Europe",
+        "Asia",
+        "Africa",
+        "North America",
+        "South America",
+        "Oceania"
+      ],
+      "countries": []
+    },
+    "categories": [
+      "health",
+      "international"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 4,
@@ -167,9 +360,26 @@
       "longTerm": "Its effect depends on adoption of the pathogen-sharing annex, which was not concluded by May 2026, and on ratification by at least 60 states. If those steps are completed, it would become the principal legal instrument for collective pandemic response."
     },
     "sources": [
-      { "title": "World Health Assembly adopts historic Pandemic Agreement to make the world more equitable and safer from future pandemics", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/20-05-2025-world-health-assembly-adopts-historic-pandemic-agreement-to-make-the-world-more-equitable-and-safer-from-future-pandemics", "type": "intergovernmental", "date": "2025-05-20" },
-      { "title": "WHO Member States Adopt Pandemic Agreement", "publisher": "IISD SDG Knowledge Hub", "url": "https://sdg.iisd.org/news/who-member-states-adopt-pandemic-agreement/", "type": "analysis" },
-      { "title": "Seventy-ninth World Health Assembly – Daily update: 19 May 2026", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/19-05-2026-seventy-ninth-world-health-assembly---daily-update--19-may-2026", "type": "intergovernmental", "date": "2026-05-19" }
+      {
+        "title": "World Health Assembly adopts historic Pandemic Agreement to make the world more equitable and safer from future pandemics",
+        "publisher": "World Health Organization",
+        "url": "https://www.who.int/news/item/20-05-2025-world-health-assembly-adopts-historic-pandemic-agreement-to-make-the-world-more-equitable-and-safer-from-future-pandemics",
+        "type": "intergovernmental",
+        "date": "2025-05-20"
+      },
+      {
+        "title": "WHO Member States Adopt Pandemic Agreement",
+        "publisher": "IISD SDG Knowledge Hub",
+        "url": "https://sdg.iisd.org/news/who-member-states-adopt-pandemic-agreement/",
+        "type": "analysis"
+      },
+      {
+        "title": "Seventy-ninth World Health Assembly – Daily update: 19 May 2026",
+        "publisher": "World Health Organization",
+        "url": "https://www.who.int/news/item/19-05-2026-seventy-ninth-world-health-assembly---daily-update--19-may-2026",
+        "type": "intergovernmental",
+        "date": "2026-05-19"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -177,8 +387,19 @@
     "id": "2025-us-approval-of-twice-yearly-hiv-prevention-injection",
     "title": "United States approves a twice-yearly injection for HIV prevention",
     "date": "2025-06-18",
-    "geography": { "scope": "national", "continents": ["North America"], "countries": ["United States"] },
-    "categories": ["health", "science"],
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "North America"
+      ],
+      "countries": [
+        "United States"
+      ]
+    },
+    "categories": [
+      "health",
+      "science"
+    ],
     "goodNews": true,
     "goodNewsRationale": "Approval followed two Phase 3 trials in which more than 99.9% of participants receiving the drug remained HIV-negative, a demonstrated health benefit.",
     "scores": {
@@ -192,9 +413,25 @@
       "longTerm": "If made widely available, a long-acting option of this efficacy could change the course of HIV prevention globally. That outcome depends on approvals in other countries, manufacturing capacity and pricing in regions with the highest incidence."
     },
     "sources": [
-      { "title": "FDA Approves Lenacapavir for Prevention of HIV", "publisher": "Drug Topics", "url": "https://www.drugtopics.com/view/fda-approves-lenacapavir-for-prevention-of-hiv", "type": "news" },
-      { "title": "FDA approves lenacapavir as the first twice-yearly PrEP for HIV prevention", "publisher": "Managed Healthcare Executive", "url": "https://www.managedhealthcareexecutive.com/view/fda-approves-lenacapavir-as-the-first-twice-yearly-prep-for-hiv-prevention", "type": "news" },
-      { "title": "FDA Approves First Twice-a-Year HIV Prevention Shot, Yeztugo", "publisher": "HealthDay (via Drugs.com)", "url": "https://www.drugs.com/news/fda-approves-first-twice-year-hiv-prevention-shot-125459.html", "type": "news", "date": "2025-06-20" }
+      {
+        "title": "FDA Approves Lenacapavir for Prevention of HIV",
+        "publisher": "Drug Topics",
+        "url": "https://www.drugtopics.com/view/fda-approves-lenacapavir-for-prevention-of-hiv",
+        "type": "news"
+      },
+      {
+        "title": "FDA approves lenacapavir as the first twice-yearly PrEP for HIV prevention",
+        "publisher": "Managed Healthcare Executive",
+        "url": "https://www.managedhealthcareexecutive.com/view/fda-approves-lenacapavir-as-the-first-twice-yearly-prep-for-hiv-prevention",
+        "type": "news"
+      },
+      {
+        "title": "FDA Approves First Twice-a-Year HIV Prevention Shot, Yeztugo",
+        "publisher": "HealthDay (via Drugs.com)",
+        "url": "https://www.drugs.com/news/fda-approves-first-twice-year-hiv-prevention-shot-125459.html",
+        "type": "news",
+        "date": "2025-06-20"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -202,8 +439,18 @@
     "id": "2025-suriname-certified-malaria-free",
     "title": "Suriname certified malaria-free, the first country in the Amazon region",
     "date": "2025-06-30",
-    "geography": { "scope": "national", "continents": ["South America"], "countries": ["Suriname"] },
-    "categories": ["health"],
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "South America"
+      ],
+      "countries": [
+        "Suriname"
+      ]
+    },
+    "categories": [
+      "health"
+    ],
     "goodNews": true,
     "goodNewsRationale": "Certification confirms that indigenous transmission has been interrupted for at least three consecutive years; the last locally acquired case was recorded in 2021.",
     "scores": {
@@ -217,9 +464,27 @@
       "longTerm": "The result demonstrates that elimination is feasible in Amazonian conditions and provides a working model for neighbouring countries. Sustaining it depends on surveillance of imported cases, particularly across borders with countries where malaria remains endemic."
     },
     "sources": [
-      { "title": "Suriname certified malaria-free by WHO", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/30-06-2025-suriname-certified-malaria-free-by-who", "type": "intergovernmental", "date": "2025-06-30" },
-      { "title": "Suriname certified malaria-free by WHO", "publisher": "Pan American Health Organization", "url": "https://www.paho.org/en/news/30-6-2025-suriname-certified-malaria-free-who", "type": "intergovernmental", "date": "2025-06-30" },
-      { "title": "First Amazon country declared free of malaria", "publisher": "Healio", "url": "https://www.healio.com/news/infectious-disease/20250701/first-amazon-country-declared-free-of-malaria", "type": "news", "date": "2025-07-01" }
+      {
+        "title": "Suriname certified malaria-free by WHO",
+        "publisher": "World Health Organization",
+        "url": "https://www.who.int/news/item/30-06-2025-suriname-certified-malaria-free-by-who",
+        "type": "intergovernmental",
+        "date": "2025-06-30"
+      },
+      {
+        "title": "Suriname certified malaria-free by WHO",
+        "publisher": "Pan American Health Organization",
+        "url": "https://www.paho.org/en/news/30-6-2025-suriname-certified-malaria-free-who",
+        "type": "intergovernmental",
+        "date": "2025-06-30"
+      },
+      {
+        "title": "First Amazon country declared free of malaria",
+        "publisher": "Healio",
+        "url": "https://www.healio.com/news/infectious-disease/20250701/first-amazon-country-declared-free-of-malaria",
+        "type": "news",
+        "date": "2025-07-01"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -227,8 +492,22 @@
     "id": "2025-icj-advisory-opinion-on-climate-change-obligations",
     "title": "International Court of Justice issues advisory opinion on states' climate obligations",
     "date": "2025-07-23",
-    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
-    "categories": ["climate", "international"],
+    "geography": {
+      "scope": "global",
+      "continents": [
+        "Europe",
+        "Asia",
+        "Africa",
+        "North America",
+        "South America",
+        "Oceania"
+      ],
+      "countries": []
+    },
+    "categories": [
+      "climate",
+      "international"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 4,
@@ -249,9 +528,25 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:International_Court_of_Justice_HQ_2006.jpg"
     },
     "sources": [
-      { "title": "Climate: Historic ICJ opinion on the obligations of States", "publisher": "United Nations Regional Information Centre", "url": "https://unric.org/en/climate-historic-icj-opinion-on-the-obligations-of-states/", "type": "intergovernmental" },
-      { "title": "ICJ Delivers Unanimous Advisory Opinion on States' Climate Change Obligations", "publisher": "American Society of International Law", "url": "https://asil.org/ilib/icj-delivers-unanimous-advisory-opinion-on-states-climate-change-obligations/", "type": "analysis" },
-      { "title": "International Court of Justice Advisory Opinion on Climate Change: briefing note", "publisher": "Earth Negotiations Bulletin (IISD)", "url": "https://enb.iisd.org/international-court-justice-advisory-opinion-climate-change-briefing-note", "type": "analysis", "date": "2025-07-23" }
+      {
+        "title": "Climate: Historic ICJ opinion on the obligations of States",
+        "publisher": "United Nations Regional Information Centre",
+        "url": "https://unric.org/en/climate-historic-icj-opinion-on-the-obligations-of-states/",
+        "type": "intergovernmental"
+      },
+      {
+        "title": "ICJ Delivers Unanimous Advisory Opinion on States' Climate Change Obligations",
+        "publisher": "American Society of International Law",
+        "url": "https://asil.org/ilib/icj-delivers-unanimous-advisory-opinion-on-states-climate-change-obligations/",
+        "type": "analysis"
+      },
+      {
+        "title": "International Court of Justice Advisory Opinion on Climate Change: briefing note",
+        "publisher": "Earth Negotiations Bulletin (IISD)",
+        "url": "https://enb.iisd.org/international-court-justice-advisory-opinion-climate-change-briefing-note",
+        "type": "analysis",
+        "date": "2025-07-23"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -259,8 +554,20 @@
     "id": "2025-australia-social-media-minimum-age-takes-effect",
     "title": "Australia's minimum age of 16 for social media accounts takes effect",
     "date": "2025-12-10",
-    "geography": { "scope": "national", "continents": ["Oceania"], "countries": ["Australia"] },
-    "categories": ["society", "technology", "politics"],
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "Oceania"
+      ],
+      "countries": [
+        "Australia"
+      ]
+    },
+    "categories": [
+      "society",
+      "technology",
+      "politics"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 6,
@@ -273,9 +580,26 @@
       "longTerm": "The law is a test case for regulating children's access to online platforms by age. Its effects on young people's wellbeing, and the accuracy and privacy implications of age assurance, are not yet established and are actively debated."
     },
     "sources": [
-      { "title": "New social media age restrictions for under-16s start 10 December", "publisher": "Perth Children's Hospital, Government of Western Australia", "url": "https://pch.health.wa.gov.au/About-us/News/New-social-media-age-restrictions-for-under-16s-start-10-December", "type": "official", "date": "2025-11-17" },
-      { "title": "Australia's social media ban for under-16s comes into force", "publisher": "MLex", "url": "https://www.mlex.com/mlex/articles/2420227/australia-s-social-media-ban-for-under-16s-comes-into-force", "type": "news", "date": "2025-12-10" },
-      { "title": "Australia's Nationwide Ban on Social Media for Under-16s Takes Effect", "publisher": "Outlook India", "url": "https://www.outlookindia.com/international/australias-nationwide-ban-on-social-media-for-under-16s-takes-effect", "type": "news" }
+      {
+        "title": "New social media age restrictions for under-16s start 10 December",
+        "publisher": "Perth Children's Hospital, Government of Western Australia",
+        "url": "https://pch.health.wa.gov.au/About-us/News/New-social-media-age-restrictions-for-under-16s-start-10-December",
+        "type": "official",
+        "date": "2025-11-17"
+      },
+      {
+        "title": "Australia's social media ban for under-16s comes into force",
+        "publisher": "MLex",
+        "url": "https://www.mlex.com/mlex/articles/2420227/australia-s-social-media-ban-for-under-16s-comes-into-force",
+        "type": "news",
+        "date": "2025-12-10"
+      },
+      {
+        "title": "Australia's Nationwide Ban on Social Media for Under-16s Takes Effect",
+        "publisher": "Outlook India",
+        "url": "https://www.outlookindia.com/international/australias-nationwide-ban-on-social-media-for-under-16s-takes-effect",
+        "type": "news"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -283,8 +607,19 @@
     "id": "2026-bulgaria-adopts-the-euro",
     "title": "Bulgaria adopts the euro as the 21st member of the euro area",
     "date": "2026-01-01",
-    "geography": { "scope": "national", "continents": ["Europe"], "countries": ["Bulgaria"] },
-    "categories": ["economy", "politics"],
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "Europe"
+      ],
+      "countries": [
+        "Bulgaria"
+      ]
+    },
+    "categories": [
+      "economy",
+      "politics"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 5,
@@ -297,9 +632,26 @@
       "longTerm": "Membership removes exchange-rate risk and transfers monetary policy to the European Central Bank. Public opinion on adoption was divided, with concern about price increases; its economic effects will be measurable only over several years."
     },
     "sources": [
-      { "title": "Bulgaria introduces the euro", "publisher": "European Central Bank", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260101~c830245e42.en.html", "type": "intergovernmental", "date": "2026-01-01" },
-      { "title": "Bulgaria adopts euro as of 1 January 2026", "publisher": "European Commission, Access2Markets", "url": "https://trade.ec.europa.eu/access-to-markets/en/news/bulgaria-adopts-euro-1-january-2026", "type": "official" },
-      { "title": "Bulgaria Clears Last Hurdle to Eurozone Entry on January 1, 2026", "publisher": "Bulgarian News Agency (BTA)", "url": "https://www.bta.bg/en/news/926015-bulgaria-clears-last-hurdle-to-eurozone-entry-on-january-1-2026", "type": "news", "date": "2025-07-08" }
+      {
+        "title": "Bulgaria introduces the euro",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260101~c830245e42.en.html",
+        "type": "intergovernmental",
+        "date": "2026-01-01"
+      },
+      {
+        "title": "Bulgaria adopts euro as of 1 January 2026",
+        "publisher": "European Commission, Access2Markets",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/news/bulgaria-adopts-euro-1-january-2026",
+        "type": "official"
+      },
+      {
+        "title": "Bulgaria Clears Last Hurdle to Eurozone Entry on January 1, 2026",
+        "publisher": "Bulgarian News Agency (BTA)",
+        "url": "https://www.bta.bg/en/news/926015-bulgaria-clears-last-hurdle-to-eurozone-entry-on-january-1-2026",
+        "type": "news",
+        "date": "2025-07-08"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -308,8 +660,22 @@
     "title": "High Seas Treaty enters into force",
     "date": "2026-01-17",
     "statusNote": "The treaty's institutions are still being established; the first Conference of the Parties must meet by January 2027.",
-    "geography": { "scope": "global", "continents": ["Europe", "Asia", "Africa", "North America", "South America", "Oceania"], "countries": [] },
-    "categories": ["climate", "international"],
+    "geography": {
+      "scope": "global",
+      "continents": [
+        "Europe",
+        "Asia",
+        "Africa",
+        "North America",
+        "South America",
+        "Oceania"
+      ],
+      "countries": []
+    },
+    "categories": [
+      "climate",
+      "international"
+    ],
     "goodNews": false,
     "scores": {
       "immediate": 4,
@@ -322,9 +688,25 @@
       "longTerm": "The treaty provides the legal means to create high-seas protected areas, share benefits from marine genetic resources and assess the impact of activities in international waters. Its practical effect depends on the institutions now being set up and on participation by major maritime states."
     },
     "sources": [
-      { "title": "High Seas Treaty enters into force: A milestone for ocean conservation", "publisher": "European Commission, DG Maritime Affairs and Fisheries", "url": "https://oceans-and-fisheries.ec.europa.eu/news/high-seas-treaty-enters-force-milestone-ocean-conservation-2026-01-16_en", "type": "official", "date": "2026-01-16" },
-      { "title": "UN High Seas Treaty enters into force, drawing praise from NGOs", "publisher": "SeafoodSource", "url": "https://www.seafoodsource.com/news/environment-sustainability/un-high-seas-treaty-enters-into-force-drawing-praise-from-ngos", "type": "news" },
-      { "title": "Historic Moment for the Ocean and for Multilateralism: BBNJ Agreement Enters into Force", "publisher": "Hellenic Shipping News", "url": "https://www.hellenicshippingnews.com/historic-moment-for-the-ocean-and-for-multilateralism-bbnj-agreement-enters-into-force/", "type": "news" }
+      {
+        "title": "High Seas Treaty enters into force: A milestone for ocean conservation",
+        "publisher": "European Commission, DG Maritime Affairs and Fisheries",
+        "url": "https://oceans-and-fisheries.ec.europa.eu/news/high-seas-treaty-enters-force-milestone-ocean-conservation-2026-01-16_en",
+        "type": "official",
+        "date": "2026-01-16"
+      },
+      {
+        "title": "UN High Seas Treaty enters into force, drawing praise from NGOs",
+        "publisher": "SeafoodSource",
+        "url": "https://www.seafoodsource.com/news/environment-sustainability/un-high-seas-treaty-enters-into-force-drawing-praise-from-ngos",
+        "type": "news"
+      },
+      {
+        "title": "Historic Moment for the Ocean and for Multilateralism: BBNJ Agreement Enters into Force",
+        "publisher": "Hellenic Shipping News",
+        "url": "https://www.hellenicshippingnews.com/historic-moment-for-the-ocean-and-for-multilateralism-bbnj-agreement-enters-into-force/",
+        "type": "news"
+      }
     ],
     "reviewed": "2026-11-18"
   },
@@ -332,8 +714,16 @@
     "id": "2026-who-prequalifies-malaria-treatment-for-newborns",
     "title": "WHO prequalifies the first malaria treatment formulated for newborns and young infants",
     "date": "2026-04-24",
-    "geography": { "scope": "international", "continents": ["Africa"], "countries": [] },
-    "categories": ["health"],
+    "geography": {
+      "scope": "international",
+      "continents": [
+        "Africa"
+      ],
+      "countries": []
+    },
+    "categories": [
+      "health"
+    ],
     "goodNews": true,
     "goodNewsRationale": "Prequalification certifies quality, safety and efficacy and allows public-sector procurement of a treatment for a group that previously had no dedicated formulation.",
     "scores": {
@@ -347,8 +737,189 @@
       "longTerm": "The formulation closes a long-standing gap in malaria treatment for the youngest patients, among whom the disease is most dangerous. Its effect on mortality will depend on supply and uptake in endemic countries."
     },
     "sources": [
-      { "title": "WHO prequalifies first-ever malaria treatment for newborns and infants, adds new diagnostic tests", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests", "type": "intergovernmental", "date": "2026-04-24" }
+      {
+        "title": "WHO prequalifies first-ever malaria treatment for newborns and infants, adds new diagnostic tests",
+        "publisher": "World Health Organization",
+        "url": "https://www.who.int/news/item/24-04-2026-who-prequalifies-first-ever-malaria-treatment-for-newborns-and-infants-adds-new-diagnostic-tests",
+        "type": "intergovernmental",
+        "date": "2026-04-24"
+      }
     ],
     "reviewed": "2026-11-18"
+  },
+  {
+    "id": "2026-brazil-lula-re-elected-in-presidential-runoff",
+    "title": "Luiz Inácio Lula da Silva re-elected President of Brazil in runoff",
+    "date": "2026-10-25",
+    "statusNote": "The defeated candidate said he would seek annulment of the election. The new term begins on 1 January 2027.",
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "South America"
+      ],
+      "countries": [
+        "Brazil"
+      ]
+    },
+    "categories": [
+      "politics"
+    ],
+    "goodNews": false,
+    "scores": {
+      "immediate": 7,
+      "longTerm": 6,
+      "rationale": "The result determines the government of Latin America's largest country, with over 200 million people, until 2031. Its long-term significance lies in the continuity of policy and in Brazil's international positioning, which depend on the coming term."
+    },
+    "account": {
+      "outcome": "On 25 October 2026 Luiz Inácio Lula da Silva of the Workers' Party won Brazil's presidential runoff against Senator Flávio Bolsonaro of the Liberal Party. The Superior Electoral Court (TSE) declared Lula the winner with about 52% of valid votes to Bolsonaro's 48%. Lula had finished second in the first round on 4 October. Bolsonaro rejected the result and announced legal action to annul the election.",
+      "significance": "Lula became the first candidate since the restoration of direct presidential elections in 1989 to win a runoff after trailing in the first round. It is his fourth, non-consecutive term.",
+      "longTerm": "The outcome keeps Brazil's government on its current domestic and foreign-policy course for another four years. The challenge to the result tests the authority of the electoral court in a polarised political climate."
+    },
+    "sources": [
+      {
+        "title": "Brazil's left-wing President Lula elected for fourth term",
+        "publisher": "NPR (via OPB)",
+        "url": "https://www.opb.org/article/2026/10/26/in-stunning-victory-brazils-lula-wins-fourth-presidential-term/",
+        "type": "news",
+        "date": "2026-10-26"
+      },
+      {
+        "title": "Lula holds off far right with victory in Brazil presidential election",
+        "publisher": "Al Jazeera",
+        "url": "https://aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+        "type": "news",
+        "date": "2026-10-26"
+      },
+      {
+        "title": "Lula declared winner of Brazil's runoff by the Superior Electoral Court",
+        "publisher": "Bernama / Anadolu",
+        "url": "https://bernama.com/en/news.php?id=2625627",
+        "type": "news",
+        "date": "2026-10-26"
+      },
+      {
+        "title": "Lula é reeleito para quarto mandato de presidente",
+        "publisher": "Agência Senado (Federal Senate of Brazil)",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/10/25/lula-2018vira2019-e-e-reeleito-para-quarto-mandato-de-presidente",
+        "type": "official",
+        "date": "2026-10-25"
+      }
+    ],
+    "reviewed": "2026-11-19"
+  },
+  {
+    "id": "2026-who-validates-eritrea-trachoma-elimination",
+    "title": "Eritrea validated by WHO as having eliminated trachoma as a public health problem",
+    "date": "2026-11-16",
+    "geography": {
+      "scope": "national",
+      "continents": [
+        "Africa"
+      ],
+      "countries": [
+        "Eritrea"
+      ]
+    },
+    "categories": [
+      "health"
+    ],
+    "goodNews": true,
+    "goodNewsRationale": "WHO validation follows independent review of survey evidence that elimination thresholds were met across all formerly endemic areas: a measured reduction of a leading infectious cause of blindness.",
+    "scores": {
+      "immediate": 3,
+      "longTerm": 6,
+      "rationale": "The effect is national and builds on results already achieved before validation. Long-term significance comes from removing a cause of irreversible blindness in a country with limited health infrastructure, and from the low-cost model it offers other endemic countries."
+    },
+    "account": {
+      "outcome": "On 16 November 2026 the World Health Organization announced that it had validated Eritrea as having eliminated trachoma as a public health problem. Eritrea became the 11th country in WHO's African Region and the 34th worldwide to reach this milestone. Baseline surveys were carried out between 2006 and 2020, all 58 sub-zobas were surveyed, and WHO's SAFE strategy of surgery, antibiotics, facial cleanliness and environmental improvement was applied wherever the disease was endemic.",
+      "significance": "Trachoma is the world's leading infectious cause of blindness. Eritrea relied on community-led sanitation with limited external funding, together with donated azithromycin.",
+      "longTerm": "The result adds to a steady fall in the global trachoma burden and shows that elimination is achievable in remote, resource-limited settings. Sustaining it depends on continued surveillance and care for new cases of trichiasis."
+    },
+    "sources": [
+      {
+        "title": "Eritrea Eliminates Trachoma - a Major Public Health Milestone (WHO press release)",
+        "publisher": "World Health Organization, via AllAfrica",
+        "url": "https://allafrica.com/stories/202611160817.html",
+        "type": "intergovernmental",
+        "date": "2026-11-16"
+      },
+      {
+        "title": "Eritrea becomes 11th African country to eliminate trachoma",
+        "publisher": "Premium Times / The Gazette (Nigeria)",
+        "url": "https://gazettengr.com/eritrea-becomes-11th-african-country-to-eliminate-trachoma/",
+        "type": "news",
+        "date": "2026-11-16"
+      },
+      {
+        "title": "WHO confirms Eritrea has beaten trachoma, the world's leading infectious cause of blindness",
+        "publisher": "Nature World News",
+        "url": "https://www.natureworldnews.com/articles/73875/20261116/who-confirms-eritrea-has-beaten-trachoma-worlds-leading-infectious-cause-blindness.htm",
+        "type": "news",
+        "date": "2026-11-16"
+      }
+    ],
+    "reviewed": "2026-11-19"
+  },
+  {
+    "id": "2026-united-states-mexico-bolivia-lose-measles-elimination-status",
+    "title": "United States, Mexico and Bolivia lose measles elimination status",
+    "date": "2026-11-17",
+    "geography": {
+      "scope": "international",
+      "continents": [
+        "North America",
+        "South America"
+      ],
+      "countries": [
+        "United States",
+        "Mexico",
+        "Bolivia"
+      ]
+    },
+    "categories": [
+      "health"
+    ],
+    "goodNews": false,
+    "scores": {
+      "immediate": 6,
+      "longTerm": 7,
+      "rationale": "The determination concerns three countries with a combined population of more than 470 million and reflects ongoing outbreaks with deaths. Long-term significance lies in what it indicates about declining vaccination coverage and the effort required to restore elimination."
+    },
+    "account": {
+      "outcome": "On 17 November 2026 the Pan American Health Organization announced that endemic measles transmission had been re-established in Bolivia, Mexico and the United States, which therefore lost their measles elimination status. The decision followed the 10–13 November meeting of PAHO's regional re-verification commission. The United States had held the status since 2000. As of 13 November, the Americas had reported 58,213 confirmed measles cases and 82 deaths in 2026.",
+      "significance": "Elimination means that measles no longer circulates continuously within a country; it is lost when a chain of transmission persists for more than twelve months. Kindergarten MMR vaccination coverage in the United States fell from 95% in 2019–2020 to about 92% in 2025–2026.",
+      "longTerm": "The loss reverses one of the region's principal public health achievements. Regaining the status requires a corrective plan and sustained coverage of at least 95% with two vaccine doses in every community."
+    },
+    "sources": [
+      {
+        "title": "PAHO urges countries to step up efforts to stop measles outbreaks and move towards elimination in the Americas",
+        "publisher": "Pan American Health Organization",
+        "url": "https://www.paho.org/node/105661",
+        "type": "intergovernmental",
+        "date": "2026-11-17"
+      },
+      {
+        "title": "US loses measles elimination status after 26 years",
+        "publisher": "Anadolu Agency",
+        "url": "https://www.aa.com.tr/en/americas/us-loses-measles-elimination-status-after-26-years/4127627",
+        "type": "news",
+        "date": "2026-11-17"
+      },
+      {
+        "title": "US officially loses measles elimination status, PAHO says",
+        "publisher": "ABC News (via ABC7)",
+        "url": "https://abc7news.com/story/us-officially-loses-measles-elimination-status-paho-says/20048136/",
+        "type": "news",
+        "date": "2026-11-17"
+      },
+      {
+        "title": "US loses measles elimination status, PAHO announces",
+        "publisher": "Healio",
+        "url": "https://www.healio.com/news/pediatrics/20261117/us-loses-measles-elimination-status-paho-announces",
+        "type": "news",
+        "date": "2026-11-17"
+      }
+    ],
+    "reviewed": "2026-11-19"
   }
 ]

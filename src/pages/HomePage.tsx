@@ -5,6 +5,8 @@ import { CATEGORY_IDS } from '../lib/constants'
 import { Field, GeoSelect, inputClass, NewsTypeToggle, SelectField, TopicPicker } from '../components/Controls'
 import { useId } from 'react'
 import WorldMap from '../components/WorldMap'
+import Expander from '../components/Expander'
+import LuckyButton from '../components/LuckyButton'
 import ImportanceMatrix from '../components/ImportanceMatrix'
 import DevelopmentList from '../components/DevelopmentList'
 import { applyFilters, countByCountry, geoLabel, isIsoDate, PERIODS, periodRange, QUADRANTS, quadrantOf, rank, todayIso, type PeriodId, type Quadrant } from '../lib/select'
@@ -48,7 +50,7 @@ export default function HomePage() {
     .at(-1)
 
   return (
-    <div className="flex flex-col gap-10 sm:gap-12">
+    <div className="flex flex-col gap-8 sm:gap-10">
       <section className="max-w-3xl">
         <h1 className="font-display font-bold text-3xl sm:text-4xl leading-tight tracking-tight">
           A record of the developments that will matter longest.
@@ -62,6 +64,10 @@ export default function HomePage() {
           </Link>
           .
         </p>
+        <div className="mt-5 flex flex-wrap items-center gap-3">
+          <LuckyButton className="!px-5 !py-2.5 !text-base" />
+          <span className="text-sm text-muted">Not sure where to start? Open a random development from the archive.</span>
+        </div>
       </section>
 
       <section aria-label="Filters" className="grid gap-4 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr_1fr_auto] border-t border-rule pt-6">
@@ -119,7 +125,13 @@ export default function HomePage() {
         />
       ) : (
         <>
-          <ImportanceMatrix ranked={inScope} threshold={config.highThreshold} active={quadrant} onSelectQuadrant={(q) => qs.set({ q })} />
+          <Expander
+            label="Show importance matrix"
+            hint="Plot these developments by immediate and long-term significance, and filter by quadrant"
+            defaultOpen={!!quadrant}
+          >
+            <ImportanceMatrix ranked={inScope} threshold={config.highThreshold} active={quadrant} onSelectQuadrant={(q) => qs.set({ q })} />
+          </Expander>
 
           <section aria-labelledby="list-heading">
             <div className="flex items-baseline justify-between gap-4 mb-4">

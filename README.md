@@ -32,17 +32,17 @@ The homepage opens on the **7 calendar days ending today**. Use the calendar und
 
 ## I'm feeling lucky
 
-The *I'm feeling lucky* button in the header opens a randomly chosen development from the whole archive (never the one you are already reading).
+The *I'm feeling lucky* button (in the header and on the homepage) opens a randomly chosen development from the whole archive (never the one you are already reading).
 
 ## Choosing a region
 
 The geographical scope can be set in three ways, all kept in sync:
 
-- **Map:** click a country to select it (click it again to return to World). Use the continent buttons above the map to select and zoom to a continent. Shading shows how many country-specific developments match the other filters. Global developments apply everywhere and are not shaded.
+- **Map:** open it with *Show on map*, then click a country to select it (click it again to return to World). Use the continent buttons above the map to select and zoom to a continent. Shading shows how many country-specific developments match the other filters. Global developments apply everywhere and are not shaded.
 - **Typing:** enter any country, continent or "World" in the search field. Suggestions appear as you type, and partial or unaccented names work (for example `bulg` or `cote d`).
 - **List:** the Geographical scope dropdown lists every country on the map. Numbers in brackets show matching developments.
 
-The map can be hidden with *Hide map*; the browser remembers the choice.
+The map and the importance matrix are both collapsed by default; open them with *Show on map* and *Show importance matrix*.
 
 > Opening `dist/index.html` directly by double-clicking will not work, because browsers block local data files loaded that way. Use `npm run preview`, or any static file server.
 
@@ -103,7 +103,7 @@ Developments are placed in a 2 × 2 matrix by their two scores. The list shows t
 
 ## Limitations and external dependencies
 
-- **Small, manually curated dataset.** There are 14 real developments (Aug 2024 – Apr 2026). Coverage is uneven: Sports, Culture, Business and Energy currently have no entries, and the "last 7 / 30 days" views are empty until new entries are added. The app shows an explanation when a view is empty.
+- **Small, manually curated dataset.** There are 17 real developments (Aug 2024 – Nov 2026). Recent periods only show what has been added by hand; nothing is collected automatically. Coverage is uneven: Sports, Culture, Business and Energy currently have no entries, and the "last 7 / 30 days" views are empty until new entries are added. The app shows an explanation when a view is empty.
 - **Scores are editorial judgements**, not measurements, and are labelled as such throughout.
 - **Images:** one entry has an image (public domain, Wikimedia Commons), loaded from Wikimedia at view time. The rest are text-only because no licence-verified image was confirmed. Add images only after checking the file's Commons page.
 - **External links** point to third-party sites that may change or disappear. Each entry shows its review date.

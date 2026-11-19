@@ -31,8 +31,8 @@ export default function ImportanceMatrix({ ranked, threshold, active, onSelectQu
   return (
     <section aria-labelledby="matrix-heading">
       <div className="flex items-baseline justify-between gap-4 mb-3">
-        <h2 id="matrix-heading" className="font-display font-semibold text-xl">
-          Importance matrix
+        <h2 id="matrix-heading" className="text-xs font-medium uppercase tracking-wider text-muted">
+          Immediate versus long-term significance
         </h2>
         {active && (
           <button type="button" onClick={() => onSelectQuadrant(undefined)} className="text-sm text-accent underline underline-offset-2">
